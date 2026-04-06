@@ -1,0 +1,4926 @@
+{
+  "metadata": {
+    "firmware": "fw_tg18_jp_v056_2019-04-24_sanrio.bin",
+    "patched_output": "fw_tg18_EN_inplace.bin",
+    "total_translations": 1066,
+    "sections": {
+      "area_nav": 15,
+      "attractions": 4,
+      "check_meter": 22,
+      "confirm_dialog": 5,
+      "connection": 19,
+      "gourmet_nav": 2,
+      "hotel_nav": 7,
+      "item_action": 7,
+      "item_status": 8,
+      "marriage": 21,
+      "name_entry": 9,
+      "save_room": 16,
+      "settings": 29,
+      "shop_food": 11,
+      "social": 13,
+      "speech": 1,
+      "status_overlay": 13,
+      "world_map": 9
+    }
+  },
+  "translations": [
+    {
+      "pointer_address": "0x1B7E5A",
+      "write_address": "0x1B7E58",
+      "section": "item_action",
+      "description": "Use item",
+      "translation": "USE"
+    },
+    {
+      "pointer_address": "0x1B7E62",
+      "write_address": "0x1B7E60",
+      "section": "item_action",
+      "description": "Place item",
+      "translation": "PLACE"
+    },
+    {
+      "pointer_address": "0x1B7E6E",
+      "write_address": "0x1B7E6C",
+      "section": "item_action",
+      "description": "Discard/toss item",
+      "translation": "TOSS"
+    },
+    {
+      "pointer_address": "0x1B7E7E",
+      "write_address": "0x1B7E7C",
+      "section": "item_action",
+      "description": "Item submenu heading",
+      "translation": "ITEM"
+    },
+    {
+      "pointer_address": "0x1B7E8A",
+      "write_address": "0x1B7E88",
+      "section": "item_action",
+      "description": "Wear accessory",
+      "translation": "WEAR"
+    },
+    {
+      "pointer_address": "0x1B7E96",
+      "write_address": "0x1B7E94",
+      "section": "item_action",
+      "description": "Accessory action",
+      "translation": "ACCESS"
+    },
+    {
+      "pointer_address": "0x1B7EA6",
+      "write_address": "0x1B7EA4",
+      "section": "item_action",
+      "description": "Message/delivery action",
+      "translation": "MESSAGE"
+    },
+    {
+      "pointer_address": "0x1B7DE2",
+      "write_address": "0x1B7DE0",
+      "section": "item_status",
+      "description": "Cannot eat",
+      "translation": "CANT EAT"
+    },
+    {
+      "pointer_address": "0x1B7DF6",
+      "write_address": "0x1B7DF4",
+      "section": "item_status",
+      "description": "No use",
+      "translation": "NO USE"
+    },
+    {
+      "pointer_address": "0x1B7E06",
+      "write_address": "0x1B7E04",
+      "section": "item_status",
+      "description": "Empty slot",
+      "translation": "FREE"
+    },
+    {
+      "pointer_address": "0x1B7E12",
+      "write_address": "0x1B7E10",
+      "section": "item_status",
+      "description": "Yard location",
+      "translation": "YARD"
+    },
+    {
+      "pointer_address": "0x1B7E26",
+      "write_address": "0x1B7E24",
+      "section": "item_status",
+      "description": "Store label",
+      "translation": "STORE"
+    },
+    {
+      "pointer_address": "0x1B7E32",
+      "write_address": "0x1B7E30",
+      "section": "item_status",
+      "description": "Off toggle",
+      "translation": "OFF"
+    },
+    {
+      "pointer_address": "0x1B7E3A",
+      "write_address": "0x1B7E38",
+      "section": "item_status",
+      "description": "Inventory full",
+      "translation": "FULL"
+    },
+    {
+      "pointer_address": "0x1B7E4A",
+      "write_address": "0x1B7E48",
+      "section": "item_status",
+      "description": "Inventory full with symbol",
+      "translation": "FULL!"
+    },
+    {
+      "pointer_address": "0x1B1B8C",
+      "write_address": "0x1B1B8C",
+      "section": "shop_food",
+      "description": "Department store (AT DEPT)",
+      "translation": "AT DEPT"
+    },
+    {
+      "pointer_address": "0x1B6542",
+      "write_address": "0x1B6540",
+      "section": "shop_food",
+      "description": "Cinnamoroll Cafe",
+      "translation": "CINNCAFE"
+    },
+    {
+      "pointer_address": "0x1B6582",
+      "write_address": "0x1B6580",
+      "section": "shop_food",
+      "description": "Birthday cake",
+      "translation": "BDAYCAKE"
+    },
+    {
+      "pointer_address": "0x1B6596",
+      "write_address": "0x1B6594",
+      "section": "shop_food",
+      "description": "Party food",
+      "translation": "PARTY"
+    },
+    {
+      "pointer_address": "0x1B65A6",
+      "write_address": "0x1B65A4",
+      "section": "shop_food",
+      "description": "Fridge",
+      "translation": "FRDG"
+    },
+    {
+      "pointer_address": "0x1B65B2",
+      "write_address": "0x1B65B0",
+      "section": "shop_food",
+      "description": "Eat action",
+      "translation": "EAT?"
+    },
+    {
+      "pointer_address": "0x1B65BE",
+      "write_address": "0x1B65BC",
+      "section": "shop_food",
+      "description": "Bakery venue",
+      "translation": "BAKERY"
+    },
+    {
+      "pointer_address": "0x1B65CE",
+      "write_address": "0x1B65CC",
+      "section": "shop_food",
+      "description": "Cafe venue",
+      "translation": "CAFE"
+    },
+    {
+      "pointer_address": "0x1B65DA",
+      "write_address": "0x1B65D8",
+      "section": "shop_food",
+      "description": "Eating with pal",
+      "translation": "PAL NOM"
+    },
+    {
+      "pointer_address": "0x1B65EA",
+      "write_address": "0x1B65E8",
+      "section": "shop_food",
+      "description": "Diner venue",
+      "translation": "DINER"
+    },
+    {
+      "pointer_address": "0x1B65F6",
+      "write_address": "0x1B65F4",
+      "section": "shop_food",
+      "description": "Pal eating together",
+      "translation": "PAL EAT"
+    },
+    {
+      "pointer_address": "0x1B1A70",
+      "write_address": "0x1B1A70",
+      "section": "status_overlay",
+      "description": "General OK",
+      "translation": "OK"
+    },
+    {
+      "pointer_address": "0x1B1A78",
+      "write_address": "0x1B1A78",
+      "section": "status_overlay",
+      "description": "Photo snap",
+      "translation": "SNAP"
+    },
+    {
+      "pointer_address": "0x1B1A84",
+      "write_address": "0x1B1A84",
+      "section": "status_overlay",
+      "description": "Gift received",
+      "translation": "GIFT"
+    },
+    {
+      "pointer_address": "0x1B1A94",
+      "write_address": "0x1B1A94",
+      "section": "status_overlay",
+      "description": "Item received",
+      "translation": "GOT IT"
+    },
+    {
+      "pointer_address": "0x1B1AE0",
+      "write_address": "0x1B1AE0",
+      "section": "status_overlay",
+      "description": "Safe state",
+      "translation": "SAFE"
+    },
+    {
+      "pointer_address": "0x1B1AEC",
+      "write_address": "0x1B1AEC",
+      "section": "status_overlay",
+      "description": "On a trip",
+      "translation": "TRIP"
+    },
+    {
+      "pointer_address": "0x1B1AF8",
+      "write_address": "0x1B1AF8",
+      "section": "status_overlay",
+      "description": "Achievement",
+      "translation": "BRAVO!"
+    },
+    {
+      "pointer_address": "0x1B1B2C",
+      "write_address": "0x1B1B2C",
+      "section": "status_overlay",
+      "description": "Friends connected",
+      "translation": "FRIENDS"
+    },
+    {
+      "pointer_address": "0x1B1B40",
+      "write_address": "0x1B1B40",
+      "section": "status_overlay",
+      "description": "Syncing data",
+      "translation": "SYNCING"
+    },
+    {
+      "pointer_address": "0x1B1B54",
+      "write_address": "0x1B1B54",
+      "section": "status_overlay",
+      "description": "At resort",
+      "translation": "RESORT"
+    },
+    {
+      "pointer_address": "0x1B1B68",
+      "write_address": "0x1B1B68",
+      "section": "status_overlay",
+      "description": "Can go out",
+      "translation": "CAN GO"
+    },
+    {
+      "pointer_address": "0x1B1B78",
+      "write_address": "0x1B1B78",
+      "section": "status_overlay",
+      "description": "Area unlocked",
+      "translation": "UNLOCKED"
+    },
+    {
+      "pointer_address": "0x1B1B9E",
+      "write_address": "0x1B1B9C",
+      "section": "status_overlay",
+      "description": "Thanks",
+      "translation": "THANKS"
+    },
+    {
+      "pointer_address": "0x1BB6DE",
+      "write_address": "0x1BB6DE",
+      "section": "check_meter",
+      "description": "Item category",
+      "translation": "ITEM"
+    },
+    {
+      "pointer_address": "0x1BB7DA",
+      "write_address": "0x1BB7D8",
+      "section": "check_meter",
+      "description": "Toilet and bath",
+      "translation": "LOO&TUB"
+    },
+    {
+      "pointer_address": "0x1BB7EE",
+      "write_address": "0x1BB7EC",
+      "section": "check_meter",
+      "description": "Link/connection",
+      "translation": "LINK"
+    },
+    {
+      "pointer_address": "0x1BB7FA",
+      "write_address": "0x1BB7F8",
+      "section": "check_meter",
+      "description": "Family",
+      "translation": "FAM"
+    },
+    {
+      "pointer_address": "0x1BB80A",
+      "write_address": "0x1BB808",
+      "section": "check_meter",
+      "description": "Town visits",
+      "translation": "TOWN"
+    },
+    {
+      "pointer_address": "0x1BB81A",
+      "write_address": "0x1BB818",
+      "section": "check_meter",
+      "description": "Trip status",
+      "translation": "TRIP"
+    },
+    {
+      "pointer_address": "0x1BB826",
+      "write_address": "0x1BB824",
+      "section": "check_meter",
+      "description": "Away from home",
+      "translation": "AWAY"
+    },
+    {
+      "pointer_address": "0x1BB83A",
+      "write_address": "0x1BB838",
+      "section": "check_meter",
+      "description": "Chest/storage",
+      "translation": "CHEST"
+    },
+    {
+      "pointer_address": "0x1BB84A",
+      "write_address": "0x1BB848",
+      "section": "check_meter",
+      "description": "Book/log",
+      "translation": "BOOK"
+    },
+    {
+      "pointer_address": "0x1BB902",
+      "write_address": "0x1BB900",
+      "section": "check_meter",
+      "description": "On state",
+      "translation": "ON"
+    },
+    {
+      "pointer_address": "0x1BB90A",
+      "write_address": "0x1BB908",
+      "section": "check_meter",
+      "description": "No/off state",
+      "translation": "NO"
+    },
+    {
+      "pointer_address": "0x1BB912",
+      "write_address": "0x1BB910",
+      "section": "check_meter",
+      "description": "Ready",
+      "translation": "READY!"
+    },
+    {
+      "pointer_address": "0x1BB922",
+      "write_address": "0x1BB920",
+      "section": "check_meter",
+      "description": "While active",
+      "translation": "WHILE UP"
+    },
+    {
+      "pointer_address": "0x1BB936",
+      "write_address": "0x1BB934",
+      "section": "check_meter",
+      "description": "Tamagotchi label",
+      "translation": "TAMA"
+    },
+    {
+      "pointer_address": "0x1BB946",
+      "write_address": "0x1BB944",
+      "section": "check_meter",
+      "description": "State label",
+      "translation": "STATE"
+    },
+    {
+      "pointer_address": "0x1BB952",
+      "write_address": "0x1BB950",
+      "section": "check_meter",
+      "description": "Clock OK",
+      "translation": "CLOCK OK"
+    },
+    {
+      "pointer_address": "0x1BB966",
+      "write_address": "0x1BB964",
+      "section": "check_meter",
+      "description": "Check prompt",
+      "translation": "CHECK?"
+    },
+    {
+      "pointer_address": "0x1BB976",
+      "write_address": "0x1BB974",
+      "section": "check_meter",
+      "description": "Confirm",
+      "translation": "CONFIRM!"
+    },
+    {
+      "pointer_address": "0x1BB98A",
+      "write_address": "0x1BB988",
+      "section": "check_meter",
+      "description": "Marriage prompt",
+      "translation": "MARRY?"
+    },
+    {
+      "pointer_address": "0x1BB99A",
+      "write_address": "0x1BB998",
+      "section": "check_meter",
+      "description": "Move in prompt",
+      "translation": "MOVE IN?"
+    },
+    {
+      "pointer_address": "0x1BB9DE",
+      "write_address": "0x1BB9DC",
+      "section": "check_meter",
+      "description": "Living together",
+      "translation": "ONE HOME"
+    },
+    {
+      "pointer_address": "0x1BB9F2",
+      "write_address": "0x1BB9F0",
+      "section": "check_meter",
+      "description": "Gather/collect",
+      "translation": "GATHER UP"
+    },
+    {
+      "pointer_address": "0x1BDFCA",
+      "write_address": "0x1BDFC8",
+      "section": "attractions",
+      "description": "Carousel ride",
+      "translation": "CAROUSEL"
+    },
+    {
+      "pointer_address": "0x1BDFDE",
+      "write_address": "0x1BDFDC",
+      "section": "attractions",
+      "description": "Haunted house",
+      "translation": "HAUNT"
+    },
+    {
+      "pointer_address": "0x1BDFEE",
+      "write_address": "0x1BDFEC",
+      "section": "attractions",
+      "description": "Tea cup ride",
+      "translation": "TEA CUP"
+    },
+    {
+      "pointer_address": "0x1BDFFE",
+      "write_address": "0x1BDFFC",
+      "section": "attractions",
+      "description": "Ferris wheel",
+      "translation": "FERRIS"
+    },
+    {
+      "pointer_address": "0x1D2082",
+      "write_address": "0x1D2080",
+      "section": "hotel_nav",
+      "description": "Hotel destination (was HOTEL)",
+      "translation": "PLAZA"
+    },
+    {
+      "pointer_address": "0x1BE522",
+      "write_address": "0x1BE522",
+      "section": "hotel_nav",
+      "description": "Hotel yard sub-menu (was HTLYARD)",
+      "translation": "PLAZA"
+    },
+    {
+      "pointer_address": "0x1BE5C6",
+      "write_address": "0x1BE5C6",
+      "section": "hotel_nav",
+      "description": "Hotel shop (was HTLSHOP)",
+      "translation": "SHOP"
+    },
+    {
+      "pointer_address": "0x1BE66A",
+      "write_address": "0x1BE66A",
+      "section": "hotel_nav",
+      "description": "Resort",
+      "translation": "RESORT"
+    },
+    {
+      "pointer_address": "0x1BE74E",
+      "write_address": "0x1BE74E",
+      "section": "hotel_nav",
+      "description": "Bring item label 1",
+      "translation": "BRING"
+    },
+    {
+      "pointer_address": "0x1BE75E",
+      "write_address": "0x1BE75E",
+      "section": "hotel_nav",
+      "description": "Bring item label 2 (was PACK)",
+      "translation": "ITEM?"
+    },
+    {
+      "pointer_address": "0x1BE7CE",
+      "write_address": "0x1BE7CC",
+      "section": "hotel_nav",
+      "description": "Propose action",
+      "translation": "PROPOSE?"
+    },
+    {
+      "pointer_address": "0x1BE534",
+      "write_address": "0x1BE534",
+      "section": "gourmet_nav",
+      "description": "Gourmet plaza (was FOOD CT)",
+      "translation": "PLAZA"
+    },
+    {
+      "pointer_address": "0x1BE5D8",
+      "write_address": "0x1BE5D8",
+      "section": "gourmet_nav",
+      "description": "Gourmet shop (was FOOD SH)",
+      "translation": "SHOP"
+    },
+    {
+      "pointer_address": "0x1BE546",
+      "write_address": "0x1BE546",
+      "section": "area_nav",
+      "description": "Farm square",
+      "translation": "FARM SQ"
+    },
+    {
+      "pointer_address": "0x1BE558",
+      "write_address": "0x1BE558",
+      "section": "area_nav",
+      "description": "Play square",
+      "translation": "PLAY SQ"
+    },
+    {
+      "pointer_address": "0x1BE5A0",
+      "write_address": "0x1BE5A0",
+      "section": "area_nav",
+      "description": "Berries plaza",
+      "translation": "PLAZA"
+    },
+    {
+      "pointer_address": "0x1BE5B2",
+      "write_address": "0x1BE5B4",
+      "section": "area_nav",
+      "description": "Magical park (was MAGPARK)",
+      "translation": "PARK"
+    },
+    {
+      "pointer_address": "0x1BE5EA",
+      "write_address": "0x1BE5EA",
+      "section": "area_nav",
+      "description": "Farm shop (was FARMSHP)",
+      "translation": "FARM SH"
+    },
+    {
+      "pointer_address": "0x1BE5FC",
+      "write_address": "0x1BE5FC",
+      "section": "area_nav",
+      "description": "Toy factory shop",
+      "translation": "SHOP"
+    },
+    {
+      "pointer_address": "0x1BE60E",
+      "write_address": "0x1BE60E",
+      "section": "area_nav",
+      "description": "Goods shop",
+      "translation": "GOODS"
+    },
+    {
+      "pointer_address": "0x1BE620",
+      "write_address": "0x1BE620",
+      "section": "area_nav",
+      "description": "Merry shop",
+      "translation": "SHOP"
+    },
+    {
+      "pointer_address": "0x1BE632",
+      "write_address": "0x1BE634",
+      "section": "area_nav",
+      "description": "Cloud area",
+      "translation": "CLOUD"
+    },
+    {
+      "pointer_address": "0x1BE644",
+      "write_address": "0x1BE644",
+      "section": "area_nav",
+      "description": "Berry shop",
+      "translation": "SHOP"
+    },
+    {
+      "pointer_address": "0x1BE656",
+      "write_address": "0x1BE656",
+      "section": "area_nav",
+      "description": "Magical shop",
+      "translation": "MAG SHP"
+    },
+    {
+      "pointer_address": "0x1BE8FA",
+      "write_address": "0x1BE8F8",
+      "section": "area_nav",
+      "description": "Puroland",
+      "translation": "PUROLAN"
+    },
+    {
+      "pointer_address": "0x1BE90E",
+      "write_address": "0x1BE90C",
+      "section": "area_nav",
+      "description": "Merry area",
+      "translation": "MERRY"
+    },
+    {
+      "pointer_address": "0x1BE91E",
+      "write_address": "0x1BE91C",
+      "section": "area_nav",
+      "description": "Stars area",
+      "translation": "STARS"
+    },
+    {
+      "pointer_address": "0x1BE92E",
+      "write_address": "0x1BE92C",
+      "section": "area_nav",
+      "description": "Berries",
+      "translation": "BERRIES"
+    },
+    {
+      "pointer_address": "0x1D2092",
+      "write_address": "0x1D2090",
+      "section": "world_map",
+      "description": "Gourmet Street",
+      "translation": "GOURMET"
+    },
+    {
+      "pointer_address": "0x1D20A6",
+      "write_address": "0x1D20A4",
+      "section": "world_map",
+      "description": "Farm",
+      "translation": "FARM"
+    },
+    {
+      "pointer_address": "0x1D20B6",
+      "write_address": "0x1D20B4",
+      "section": "world_map",
+      "description": "Toy Park",
+      "translation": "TOYPARK"
+    },
+    {
+      "pointer_address": "0x1D20CA",
+      "write_address": "0x1D20C8",
+      "section": "world_map",
+      "description": "Puroland",
+      "translation": "PUROLAN"
+    },
+    {
+      "pointer_address": "0x1D20DE",
+      "write_address": "0x1D20DC",
+      "section": "world_map",
+      "description": "Merry Land",
+      "translation": "MERRY"
+    },
+    {
+      "pointer_address": "0x1D20EE",
+      "write_address": "0x1D20EC",
+      "section": "world_map",
+      "description": "Stars area",
+      "translation": "STARS"
+    },
+    {
+      "pointer_address": "0x1D20FE",
+      "write_address": "0x1D20FC",
+      "section": "world_map",
+      "description": "Berries",
+      "translation": "BERRIES"
+    },
+    {
+      "pointer_address": "0x1D2112",
+      "write_address": "0x1D2110",
+      "section": "world_map",
+      "description": "Magical area",
+      "translation": "MAGICAL"
+    },
+    {
+      "pointer_address": "0x1D2126",
+      "write_address": "0x1D2124",
+      "section": "world_map",
+      "description": "Parents",
+      "translation": "PARENTS"
+    },
+    {
+      "pointer_address": "0x1B2492",
+      "write_address": "0x1B2490",
+      "section": "marriage",
+      "description": "Give ring",
+      "translation": "GIVE"
+    },
+    {
+      "pointer_address": "0x1B24EE",
+      "write_address": "0x1B24EC",
+      "section": "marriage",
+      "description": "Accept proposal",
+      "translation": "ACCEPT?"
+    },
+    {
+      "pointer_address": "0x1B251A",
+      "write_address": "0x1B251A",
+      "section": "marriage",
+      "description": "Propose",
+      "translation": "PROPOSE?"
+    },
+    {
+      "pointer_address": "0x1B2A66",
+      "write_address": "0x1B2A64",
+      "section": "marriage",
+      "description": "Edit message",
+      "translation": "EDIT MSG"
+    },
+    {
+      "pointer_address": "0x1B2A82",
+      "write_address": "0x1B2A80",
+      "section": "marriage",
+      "description": "Cancel",
+      "translation": "CANCEL?"
+    },
+    {
+      "pointer_address": "0x1BE4CE",
+      "write_address": "0x1BE4CE",
+      "section": "marriage",
+      "description": "Propose entrance",
+      "translation": "PROPOSE"
+    },
+    {
+      "pointer_address": "0x1BE4E6",
+      "write_address": "0x1BE4E6",
+      "section": "marriage",
+      "description": "Buy ring",
+      "translation": "BUY RING"
+    },
+    {
+      "pointer_address": "0x1BE4FA",
+      "write_address": "0x1BE4FA",
+      "section": "marriage",
+      "description": "Can propose",
+      "translation": "CAN PROP"
+    },
+    {
+      "pointer_address": "0x1BE50E",
+      "write_address": "0x1BE50E",
+      "section": "marriage",
+      "description": "No mate available",
+      "translation": "NO MATE"
+    },
+    {
+      "pointer_address": "0x1D2B06",
+      "write_address": "0x1D2B04",
+      "section": "marriage",
+      "description": "Not yet eligible",
+      "translation": "NOT YET"
+    },
+    {
+      "pointer_address": "0x1D2B16",
+      "write_address": "0x1D2B14",
+      "section": "marriage",
+      "description": "This Tamagotchi",
+      "translation": "THIS TAMA"
+    },
+    {
+      "pointer_address": "0x1D2B2A",
+      "write_address": "0x1D2B28",
+      "section": "marriage",
+      "description": "Proposal declined",
+      "translation": "DECLINED"
+    },
+    {
+      "pointer_address": "0x1D2B3E",
+      "write_address": "0x1D2B3C",
+      "section": "marriage",
+      "description": "Propose",
+      "translation": "PROPOSE"
+    },
+    {
+      "pointer_address": "0x1D2B4E",
+      "write_address": "0x1D2B4C",
+      "section": "marriage",
+      "description": "From this Tama",
+      "translation": "FROM THIS"
+    },
+    {
+      "pointer_address": "0x1D2B62",
+      "write_address": "0x1D2B60",
+      "section": "marriage",
+      "description": "No partner",
+      "translation": "NONE"
+    },
+    {
+      "pointer_address": "0x1D2B7E",
+      "write_address": "0x1D2B7C",
+      "section": "marriage",
+      "description": "Twin birth",
+      "translation": "TWIN"
+    },
+    {
+      "pointer_address": "0x1D2B8A",
+      "write_address": "0x1D2B88",
+      "section": "marriage",
+      "description": "To marry",
+      "translation": "TO MARRY"
+    },
+    {
+      "pointer_address": "0x1D2B9E",
+      "write_address": "0x1D2B9C",
+      "section": "marriage",
+      "description": "Pick ring",
+      "translation": "PICK RING"
+    },
+    {
+      "pointer_address": "0x1D2BB2",
+      "write_address": "0x1D2BB0",
+      "section": "marriage",
+      "description": "Pick",
+      "translation": "PICK"
+    },
+    {
+      "pointer_address": "0x1D2BBE",
+      "write_address": "0x1D2BBC",
+      "section": "marriage",
+      "description": "Blocked",
+      "translation": "BLOCKED"
+    },
+    {
+      "pointer_address": "0x1D2BCE",
+      "write_address": "0x1D2BCC",
+      "section": "marriage",
+      "description": "Outing",
+      "translation": "OUTING"
+    },
+    {
+      "pointer_address": "0x1B407E",
+      "write_address": "0x1B407C",
+      "section": "connection",
+      "description": "Passkey label",
+      "translation": "PASS"
+    },
+    {
+      "pointer_address": "0x1B40AA",
+      "write_address": "0x1B40AA",
+      "section": "connection",
+      "description": "Button instruction",
+      "translation": "PRESS B OK"
+    },
+    {
+      "pointer_address": "0x1B40C2",
+      "write_address": "0x1B40C2",
+      "section": "connection",
+      "description": "Outgoing transfer",
+      "translation": "OUTGOING"
+    },
+    {
+      "pointer_address": "0x1B40F6",
+      "write_address": "0x1B40FC",
+      "section": "connection",
+      "description": "Good passkey (abbreviated)",
+      "translation": "GD PASS"
+    },
+    {
+      "pointer_address": "0x1B410E",
+      "write_address": "0x1B410E",
+      "section": "connection",
+      "description": "Enter",
+      "translation": "ENTER"
+    },
+    {
+      "pointer_address": "0x1B411E",
+      "write_address": "0x1B411E",
+      "section": "connection",
+      "description": "Retry",
+      "translation": "RETRY"
+    },
+    {
+      "pointer_address": "0x1B412E",
+      "write_address": "0x1B412E",
+      "section": "connection",
+      "description": "Skip",
+      "translation": "SKIP"
+    },
+    {
+      "pointer_address": "0x1D251A",
+      "write_address": "0x1D2518",
+      "section": "connection",
+      "description": "Auto mode",
+      "translation": "AUTO"
+    },
+    {
+      "pointer_address": "0x1D2526",
+      "write_address": "0x1D2524",
+      "section": "connection",
+      "description": "All devices",
+      "translation": "ALL"
+    },
+    {
+      "pointer_address": "0x1D252E",
+      "write_address": "0x1D252C",
+      "section": "connection",
+      "description": "Mode",
+      "translation": "MODE"
+    },
+    {
+      "pointer_address": "0x1D253A",
+      "write_address": "0x1D2538",
+      "section": "connection",
+      "description": "Choice",
+      "translation": "CHOICE"
+    },
+    {
+      "pointer_address": "0x1D2572",
+      "write_address": "0x1D2570",
+      "section": "connection",
+      "description": "Count",
+      "translation": "COUNT"
+    },
+    {
+      "pointer_address": "0x1D257E",
+      "write_address": "0x1D257C",
+      "section": "connection",
+      "description": "Version",
+      "translation": "VER"
+    },
+    {
+      "pointer_address": "0x1D25A6",
+      "write_address": "0x1D25A4",
+      "section": "connection",
+      "description": "Menu mode",
+      "translation": "MENU MODE"
+    },
+    {
+      "pointer_address": "0x1D2C0E",
+      "write_address": "0x1D2C0C",
+      "section": "connection",
+      "description": "Photo go",
+      "translation": "PHOTO GO"
+    },
+    {
+      "pointer_address": "0x1D2C2A",
+      "write_address": "0x1D2C28",
+      "section": "connection",
+      "description": "Move to",
+      "translation": "MOVE TO"
+    },
+    {
+      "pointer_address": "0x1D2C3E",
+      "write_address": "0x1D2C3C",
+      "section": "connection",
+      "description": "Moving/transferring",
+      "translation": "MOVING"
+    },
+    {
+      "pointer_address": "0x1D2F72",
+      "write_address": "0x1D2F70",
+      "section": "connection",
+      "description": "Sync",
+      "translation": "SYNC"
+    },
+    {
+      "pointer_address": "0x1D2F7E",
+      "write_address": "0x1D2F7C",
+      "section": "connection",
+      "description": "Standby",
+      "translation": "STANDBY"
+    },
+    {
+      "pointer_address": "0x1D1EE6",
+      "write_address": "0x1D1EE4",
+      "section": "settings",
+      "description": "Generation number",
+      "translation": "GEN"
+    },
+    {
+      "pointer_address": "0x1D1F0E",
+      "write_address": "0x1D1F0C",
+      "section": "settings",
+      "description": "Display dim",
+      "translation": "DIM"
+    },
+    {
+      "pointer_address": "0x1D1F16",
+      "write_address": "0x1D1F14",
+      "section": "settings",
+      "description": "Set/confirm",
+      "translation": "SET"
+    },
+    {
+      "pointer_address": "0x1D1F22",
+      "write_address": "0x1D1F20",
+      "section": "settings",
+      "description": "Sound toggle",
+      "translation": "SOUND"
+    },
+    {
+      "pointer_address": "0x1D1F36",
+      "write_address": "0x1D1F34",
+      "section": "settings",
+      "description": "Icon background",
+      "translation": "ICON BG"
+    },
+    {
+      "pointer_address": "0x1D1FC2",
+      "write_address": "0x1D1FC0",
+      "section": "settings",
+      "description": "Bonus label",
+      "translation": "BONUS"
+    },
+    {
+      "pointer_address": "0x1D340A",
+      "write_address": "0x1D3408",
+      "section": "settings",
+      "description": "Reset",
+      "translation": "RESET"
+    },
+    {
+      "pointer_address": "0x1D3416",
+      "write_address": "0x1D3414",
+      "section": "settings",
+      "description": "Friends list",
+      "translation": "FRIENDS"
+    },
+    {
+      "pointer_address": "0x1D342A",
+      "write_address": "0x1D3428",
+      "section": "settings",
+      "description": "See ya/disconnect",
+      "translation": "SEEYA"
+    },
+    {
+      "pointer_address": "0x1D343A",
+      "write_address": "0x1D3438",
+      "section": "settings",
+      "description": "Call",
+      "translation": "CALL"
+    },
+    {
+      "pointer_address": "0x1D3446",
+      "write_address": "0x1D3444",
+      "section": "settings",
+      "description": "Visit",
+      "translation": "VISIT"
+    },
+    {
+      "pointer_address": "0x1D3452",
+      "write_address": "0x1D3450",
+      "section": "settings",
+      "description": "Go out",
+      "translation": "GO OUT"
+    },
+    {
+      "pointer_address": "0x1D3462",
+      "write_address": "0x1D3460",
+      "section": "settings",
+      "description": "Buy",
+      "translation": "BUY"
+    },
+    {
+      "pointer_address": "0x1D346A",
+      "write_address": "0x1D3468",
+      "section": "settings",
+      "description": "Bag/items",
+      "translation": "BAG"
+    },
+    {
+      "pointer_address": "0x1D3476",
+      "write_address": "0x1D3474",
+      "section": "settings",
+      "description": "Out/exit",
+      "translation": "OUT"
+    },
+    {
+      "pointer_address": "0x1D347E",
+      "write_address": "0x1D347C",
+      "section": "settings",
+      "description": "No storage space",
+      "translation": "NO SPACE"
+    },
+    {
+      "pointer_address": "0x1D3492",
+      "write_address": "0x1D3490",
+      "section": "settings",
+      "description": "App data sync",
+      "translation": "APP DATA"
+    },
+    {
+      "pointer_address": "0x1D34A6",
+      "write_address": "0x1D34A4",
+      "section": "settings",
+      "description": "Return",
+      "translation": "RETURN"
+    },
+    {
+      "pointer_address": "0x1D34B6",
+      "write_address": "0x1D34B4",
+      "section": "settings",
+      "description": "Stuck/error",
+      "translation": "STUCK"
+    },
+    {
+      "pointer_address": "0x1D34CE",
+      "write_address": "0x1D34CC",
+      "section": "settings",
+      "description": "Download",
+      "translation": "DWNLD"
+    },
+    {
+      "pointer_address": "0x1D355A",
+      "write_address": "0x1D3558",
+      "section": "settings",
+      "description": "Gift",
+      "translation": "GIFT"
+    },
+    {
+      "pointer_address": "0x1D356E",
+      "write_address": "0x1D356C",
+      "section": "settings",
+      "description": "Trade",
+      "translation": "TRADE"
+    },
+    {
+      "pointer_address": "0x1D3582",
+      "write_address": "0x1D3580",
+      "section": "settings",
+      "description": "Trip",
+      "translation": "TRIP"
+    },
+    {
+      "pointer_address": "0x1D359A",
+      "write_address": "0x1D3598",
+      "section": "settings",
+      "description": "Get item",
+      "translation": "GET ITEM"
+    },
+    {
+      "pointer_address": "0x1D35AE",
+      "write_address": "0x1D35AC",
+      "section": "settings",
+      "description": "Mini game",
+      "translation": "GAME"
+    },
+    {
+      "pointer_address": "0x1D35BA",
+      "write_address": "0x1D35B8",
+      "section": "settings",
+      "description": "Where prompt",
+      "translation": "WHERE?"
+    },
+    {
+      "pointer_address": "0x1D35FA",
+      "write_address": "0x1D35F8",
+      "section": "settings",
+      "description": "Fun activity",
+      "translation": "FUN?"
+    },
+    {
+      "pointer_address": "0x1D3606",
+      "write_address": "0x1D3604",
+      "section": "settings",
+      "description": "Friends",
+      "translation": "FRIENDS"
+    },
+    {
+      "pointer_address": "0x1D3616",
+      "write_address": "0x1D3614",
+      "section": "settings",
+      "description": "Leaf game",
+      "translation": "LEAF GM"
+    },
+    {
+      "pointer_address": "0x1D0A6A",
+      "write_address": "0x1D0A68",
+      "section": "save_room",
+      "description": "Short room type",
+      "translation": "SHORT"
+    },
+    {
+      "pointer_address": "0x1D0A76",
+      "write_address": "0x1D0A74",
+      "section": "save_room",
+      "description": "Renovate",
+      "translation": "RENOVATE"
+    },
+    {
+      "pointer_address": "0x1D0A8A",
+      "write_address": "0x1D0A88",
+      "section": "save_room",
+      "description": "Room",
+      "translation": "ROOM"
+    },
+    {
+      "pointer_address": "0x1D0DAE",
+      "write_address": "0x1D0DAC",
+      "section": "save_room",
+      "description": "Load save",
+      "translation": "LOAD"
+    },
+    {
+      "pointer_address": "0x1D0DBA",
+      "write_address": "0x1D0DB8",
+      "section": "save_room",
+      "description": "Erase save",
+      "translation": "ERASE"
+    },
+    {
+      "pointer_address": "0x1D0DCA",
+      "write_address": "0x1D0DC8",
+      "section": "save_room",
+      "description": "Confirm erase",
+      "translation": "SURE?"
+    },
+    {
+      "pointer_address": "0x1D0E0A",
+      "write_address": "0x1D0E08",
+      "section": "save_room",
+      "description": "Month abbreviation",
+      "translation": "MO"
+    },
+    {
+      "pointer_address": "0x1D0E12",
+      "write_address": "0x1D0E10",
+      "section": "save_room",
+      "description": "Day abbreviation",
+      "translation": "DY"
+    },
+    {
+      "pointer_address": "0x1D0E2A",
+      "write_address": "0x1D0E28",
+      "section": "save_room",
+      "description": "Cannot save",
+      "translation": "CANT SAVE"
+    },
+    {
+      "pointer_address": "0x1D0E3E",
+      "write_address": "0x1D0E3C",
+      "section": "save_room",
+      "description": "Delete confirm",
+      "translation": "DEL?"
+    },
+    {
+      "pointer_address": "0x1D1D86",
+      "write_address": "0x1D1D84",
+      "section": "save_room",
+      "description": "Toilet",
+      "translation": "LOO"
+    },
+    {
+      "pointer_address": "0x1D1D8E",
+      "write_address": "0x1D1D8C",
+      "section": "save_room",
+      "description": "Bath/tub",
+      "translation": "TUB"
+    },
+    {
+      "pointer_address": "0x1D1D96",
+      "write_address": "0x1D1D94",
+      "section": "save_room",
+      "description": "Leave room",
+      "translation": "LEAVE"
+    },
+    {
+      "pointer_address": "0x1D1DA2",
+      "write_address": "0x1D1DA0",
+      "section": "save_room",
+      "description": "Go home",
+      "translation": "HOME"
+    },
+    {
+      "pointer_address": "0x1D1DAE",
+      "write_address": "0x1D1DAC",
+      "section": "save_room",
+      "description": "Cannot do action",
+      "translation": "NO WAY"
+    },
+    {
+      "pointer_address": "0x1D1DBE",
+      "write_address": "0x1D1DBC",
+      "section": "save_room",
+      "description": "Cannot leave",
+      "translation": "NO LEAVE"
+    },
+    {
+      "pointer_address": "0x1D213A",
+      "write_address": "0x1D2138",
+      "section": "social",
+      "description": "Delete",
+      "translation": "DEL"
+    },
+    {
+      "pointer_address": "0x1D2142",
+      "write_address": "0x1D2140",
+      "section": "social",
+      "description": "Message",
+      "translation": "MSG"
+    },
+    {
+      "pointer_address": "0x1D214E",
+      "write_address": "0x1D214C",
+      "section": "social",
+      "description": "Old message",
+      "translation": "OLD MSG"
+    },
+    {
+      "pointer_address": "0x1D2162",
+      "write_address": "0x1D2160",
+      "section": "social",
+      "description": "Erase",
+      "translation": "ERASE"
+    },
+    {
+      "pointer_address": "0x1D216E",
+      "write_address": "0x1D216C",
+      "section": "social",
+      "description": "Erased confirmation",
+      "translation": "ERASED"
+    },
+    {
+      "pointer_address": "0x1D2182",
+      "write_address": "0x1D2180",
+      "section": "social",
+      "description": "Meet friend",
+      "translation": "MEET"
+    },
+    {
+      "pointer_address": "0x1D218E",
+      "write_address": "0x1D218C",
+      "section": "social",
+      "description": "Goodbye",
+      "translation": "BYE?"
+    },
+    {
+      "pointer_address": "0x1D219A",
+      "write_address": "0x1D2198",
+      "section": "social",
+      "description": "Incoming message notification",
+      "translation": "MSG FROM\\nFRIEND☀"
+    },
+    {
+      "pointer_address": "0x1D21BE",
+      "write_address": "0x1D21BC",
+      "section": "social",
+      "description": "Edit message",
+      "translation": "EDIT MSG"
+    },
+    {
+      "pointer_address": "0x1D21D2",
+      "write_address": "0x1D21D0",
+      "section": "social",
+      "description": "Communication log",
+      "translation": "LOG"
+    },
+    {
+      "pointer_address": "0x1D21E2",
+      "write_address": "0x1D21E0",
+      "section": "social",
+      "description": "Bye",
+      "translation": "BYE"
+    },
+    {
+      "pointer_address": "0x1D21EE",
+      "write_address": "0x1D21EC",
+      "section": "social",
+      "description": "Friends screen",
+      "translation": "FRIENDS"
+    },
+    {
+      "pointer_address": "0x1D21FE",
+      "write_address": "0x1D21FC",
+      "section": "social",
+      "description": "Photo log",
+      "translation": "PHOTOLOG"
+    },
+    {
+      "pointer_address": "0x1B703E",
+      "write_address": "0x1B703C",
+      "section": "name_entry",
+      "description": "Latin alphabet grid A-Z",
+      "translation": "ABCDEF GHIJKL MNOPQR STUVWX YZ"
+    },
+    {
+      "pointer_address": "0x1B75DA",
+      "write_address": "0x1B75D8",
+      "section": "name_entry",
+      "description": "Confirm name",
+      "translation": "SURE"
+    },
+    {
+      "pointer_address": "0x1B75E6",
+      "write_address": "0x1B75E4",
+      "section": "name_entry",
+      "description": "Enter name prompt",
+      "translation": "ENTER IT"
+    },
+    {
+      "pointer_address": "0x1B75FA",
+      "write_address": "0x1B75F8",
+      "section": "name_entry",
+      "description": "Name label",
+      "translation": "NAME?"
+    },
+    {
+      "pointer_address": "0x1B763E",
+      "write_address": "0x1B763C",
+      "section": "name_entry",
+      "description": "Name label short",
+      "translation": "NAME"
+    },
+    {
+      "pointer_address": "0x1B764A",
+      "write_address": "0x1B7648",
+      "section": "name_entry",
+      "description": "Name now prompt",
+      "translation": "NAME NOW"
+    },
+    {
+      "pointer_address": "0x1B768C",
+      "write_address": "0x1B768C",
+      "section": "name_entry",
+      "description": "Confirm dialog header",
+      "translation": "CONFIRM?"
+    },
+    {
+      "pointer_address": "0x1B76A2",
+      "write_address": "0x1B76A0",
+      "section": "name_entry",
+      "description": "Name already taken prefix",
+      "translation": "ALREADY"
+    },
+    {
+      "pointer_address": "0x1B76B2",
+      "write_address": "0x1B76B0",
+      "section": "name_entry",
+      "description": "Name already taken suffix",
+      "translation": "TAKEN!"
+    },
+    {
+      "pointer_address": "0x1B15B4",
+      "write_address": "0x1B15B4",
+      "section": "speech",
+      "description": "Hotel PLAZA item event",
+      "translation": "LETS PLAY WITH THIS"
+    },
+    {
+      "pointer_address": "0x1B2488",
+      "write_address": "0x1B2488",
+      "section": "confirm_dialog",
+      "description": "No/いいえ instance 1",
+      "translation": "NO"
+    },
+    {
+      "pointer_address": "0x1B250C",
+      "write_address": "0x1B250C",
+      "section": "confirm_dialog",
+      "description": "No/いいえ instance 2",
+      "translation": "NO"
+    },
+    {
+      "pointer_address": "0x1B40E8",
+      "write_address": "0x1B40E8",
+      "section": "confirm_dialog",
+      "description": "No/いいえ instance 3",
+      "translation": "NO"
+    },
+    {
+      "pointer_address": "0x1BE378",
+      "write_address": "0x1BE378",
+      "section": "confirm_dialog",
+      "description": "No/いいえ instance 4",
+      "translation": "NO"
+    },
+    {
+      "pointer_address": "0x1D30F8",
+      "write_address": "0x1D30F8",
+      "section": "confirm_dialog",
+      "description": "No/いいえ instance 5",
+      "translation": "NO"
+    }
+  ],
+  "0x001D3604": {
+    "t": "QUIZ",
+    "c": "settings: Friends"
+  },
+  "0x001D3614": {
+    "t": "MATCH",
+    "c": "settings: Leaf game"
+  },
+  "0x001DC4D8": {
+    "t": "WELCOME TO\nTHE SANRIO\nQUIZ! ★",
+    "c": "Quiz intro. Left as JP: exceeds 12ch/line x 2 line display limit"
+  },
+  "0x005098BE": {
+    "t": "KIKI N LALA",
+    "c": "Sanrio room: Kiki&Lala living"
+  },
+  "0x0050769A": {
+    "t": "STRAWBERRY",
+    "c": "Sanrio room: strawberry living"
+  },
+  "0x005070E2": {
+    "t": "BABY FOOD",
+    "c": "Sanrio food: baby food"
+  },
+  "0x0050BAEA": {
+    "t": "MY MELODY",
+    "c": "Sanrio room: My Melody living"
+  },
+  "0x0050DD16": {
+    "t": "HELLO KITTY",
+    "c": "Sanrio room: Hello Kitty living"
+  },
+  "0x0050FF42": {
+    "t": "SANRIO ROOM",
+    "c": "Sanrio room: Sanrio living"
+  },
+  "0x0051216E": {
+    "t": "WITCH ROOM",
+    "c": "Sanrio room: witch living"
+  },
+  "0x0051E7AE": {
+    "t": "SLIDE",
+    "c": "Sanrio toy: cloud slide"
+  },
+  "0x0052094E": {
+    "t": "CRAYON",
+    "c": "Sanrio toy: sky crayon"
+  },
+  "0x005212BA": {
+    "t": "THEATRE",
+    "c": "Sanrio toy: Kiki&Lala theater"
+  },
+  "0x00521D8A": {
+    "t": "BERRY TEA",
+    "c": "Sanrio toy: strawberry tea set"
+  },
+  "0x005224EE": {
+    "t": "PINK BALOON",
+    "c": "Sanrio toy: strawberry balloon"
+  },
+  "0x0052327E": {
+    "t": "MAG MIRROR",
+    "c": "Sanrio toy: fortune mirror"
+  },
+  "0x0054110A": {
+    "t": "PINK RIBBON",
+    "c": "Sanrio accessory: My Melody ribbon"
+  },
+  "0x0053EE0A": {
+    "t": "STAR DECO",
+    "c": "Sanrio accessory: star decoration"
+  },
+  "0x0053DC76": {
+    "t": "KL BALLOON",
+    "c": "Sanrio accessory: Kiki&Lala balloon"
+  },
+  "0x0053A7E2": {
+    "t": "PINK CROWN",
+    "c": "Sanrio accessory: strawberry crown"
+  },
+  "0x005384C2": {
+    "t": "SMALL DRUM",
+    "c": "Sanrio accessory: small drum"
+  },
+  "0x0053734A": {
+    "t": "FUN GLASSES",
+    "c": "Sanrio accessory: swirl glasses"
+  },
+  "0x005361CA": {
+    "t": "HEADPHONES",
+    "c": "Sanrio accessory: headphones"
+  },
+  "0x0053503E": {
+    "t": "BADGE",
+    "c": "Sanrio item: matching badge"
+  },
+  "0x00533EB6": {
+    "t": "TOTE",
+    "c": "Sanrio item: matching tote"
+  },
+  "0x00548C12": {
+    "t": "DISGUISE",
+    "c": "Sanrio accessory: nose glasses"
+  },
+  "0x0054C0AA": {
+    "t": "STRAW HAT",
+    "c": "Sanrio accessory: straw hat"
+  },
+  "0x005506D6": {
+    "t": "SUNGLASSES",
+    "c": "Sanrio accessory: sunglasses"
+  },
+  "0x0054F542": {
+    "t": "LEI",
+    "c": "Sanrio accessory: tropical lei"
+  },
+  "0x0054E3BA": {
+    "t": "FRYINGPAN",
+    "c": "Sanrio accessory: frying pan"
+  },
+  "0x0052FF7E": {
+    "t": "BEST RING",
+    "c": "Sanrio accessory: gorgeous ring"
+  },
+  "0x004FAC92": {
+    "t": "COOKIES",
+    "c": "Sanrio food: baby cookie"
+  },
+  "0x004F7346": {
+    "t": "MANGO PUD",
+    "c": "Sanrio food: mango pudding"
+  },
+  "0x004F61E2": {
+    "t": "PUNCH",
+    "c": "Sanrio food: fruit punch"
+  },
+  "0x004F5C2E": {
+    "t": "ICECREAM",
+    "c": "Sanrio food: soft serve"
+  },
+  "0x004F567A": {
+    "t": "CREPE",
+    "c": "Sanrio food: strawberry crepe"
+  },
+  "0x004F344E": {
+    "t": "CHURRO",
+    "c": "Sanrio food: pumpkin churro"
+  },
+  "0x004F28F6": {
+    "t": "CHERRY",
+    "c": "Sanrio food: twin cherry"
+  },
+  "0x004F1D86": {
+    "t": "FRAPPE",
+    "c": "Sanrio food: strawberry frappe"
+  },
+  "0x004F17CE": {
+    "t": "PANCAKE",
+    "c": "Sanrio food: strawberry pancake"
+  },
+  "0x004F120A": {
+    "t": "K. SUNDAE",
+    "c": "Sanrio food: king sundae"
+  },
+  "0x004F0C42": {
+    "t": "CAKE",
+    "c": "Sanrio food: pound cake"
+  },
+  "0x004F0696": {
+    "t": "SMOOTHIE",
+    "c": "Sanrio food: Kuromi smoothie"
+  },
+  "0x004F00CA": {
+    "t": "CREAM PUF",
+    "c": "Sanrio food: Melody cream puff"
+  },
+  "0x004EFB12": {
+    "t": "PANCAKE",
+    "c": "Sanrio food: Lala pancake"
+  },
+  "0x004EF54E": {
+    "t": "MACARON",
+    "c": "Sanrio food: star macaron"
+  },
+  "0x004EEF9A": {
+    "t": "CTN CANDY",
+    "c": "Sanrio food: Kiki&Lala cotton candy"
+  },
+  "0x004EE9E6": {
+    "t": "STEAM BUN",
+    "c": "Sanrio food: Hello Kitty steamed bun"
+  },
+  "0x004EE43A": {
+    "t": "RAMEN",
+    "c": "Sanrio food: crispy ramen"
+  },
+  "0x001D20C8": {
+    "t": "PUROLAND",
+    "c": "world_map: Puroland"
+  },
+  "0x001D068C": {
+    "t": "EGGBASKET",
+    "c": "System menu"
+  },
+  "0x001BE708": {
+    "t": "MAGE RIDE",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE6E0": {
+    "t": "CLOUDFAIR",
+    "c": "Hotel/travel: cloud park"
+  },
+  "0x001BE6CC": {
+    "t": "MUSHROOM",
+    "c": "Hotel/travel: mushroom hunt"
+  },
+  "0x001BE58C": {
+    "t": "PLAZA",
+    "c": "Generic plaza label 3 (ひろば)"
+  },
+  "0x001BE384": {
+    "t": "WAIT...",
+    "c": "かんがえさせて (let me think) — decline proposal"
+  },
+  "0x001BB950": {
+    "t": "CLOCK OK?",
+    "c": "check_meter: Clock OK"
+  },
+  "0x001B19A4": {
+    "t": "TRICK O",
+    "c": "Halloween: Trick or Treat (line 1)"
+  },
+  "0x001B1DB4": {
+    "t": "TO COME★★",
+    "c": "Area unlock: waited for you"
+  },
+  "0x001B1DD0": {
+    "t": "★★WAITED 4 U",
+    "c": "Area unlock: Star World line 6"
+  },
+  "0x001B180C": {
+    "t": "CONGRATS!",
+    "c": "New Year greeting line 1"
+  },
+  "0x001B1824": {
+    "t": "THIS",
+    "c": "New Year: this year too (line 1)"
+  },
+  "0x001B1830": {
+    "t": "YEAR TOO!♥",
+    "c": "New Year: this year too (line 2)"
+  },
+  "0x001B184C": {
+    "t": "MOM. DAD.",
+    "c": "New Year: Mom, Dad, happy... (line 1)"
+  },
+  "0x001B1864": {
+    "t": "HAPPY NEW",
+    "c": "New Year: Happy New Year (line 1)"
+  },
+  "0x001B187C": {
+    "t": "YEAR!",
+    "c": "New Year: Happy New Year (line 2)"
+  },
+  "0x001B1890": {
+    "t": "MONEY TIME!",
+    "c": "New Year: allowance time"
+  },
+  "0x001B18A8": {
+    "t": "MOM DAD",
+    "c": "New Year: Mom, Dad (address)"
+  },
+  "0x001B18B8": {
+    "t": "THANKS!",
+    "c": "New Year: Thank you!"
+  },
+  "0x001B18CC": {
+    "t": "GRANDMA &",
+    "c": "New Year: Grandma & grandpa (line 1)"
+  },
+  "0x001B18E4": {
+    "t": "GRANDPA HERE",
+    "c": "New Year: came to visit (line 2)"
+  },
+  "0x001B1900": {
+    "t": "RELAX AND",
+    "c": "New Year: grandparents say relax (line 1)"
+  },
+  "0x001B1918": {
+    "t": "ENJOY!",
+    "c": "New Year: grandparents say enjoy (line 2)"
+  },
+  "0x001B1930": {
+    "t": "SO BIG~",
+    "c": "New Year: you have grown so big"
+  },
+  "0x001B1944": {
+    "t": "OH! AND",
+    "c": "New Year: oh that reminds me (line 1)"
+  },
+  "0x001B1954": {
+    "t": "SECRET",
+    "c": "New Year: secret from Mom & Dad (line 1)"
+  },
+  "0x001B1964": {
+    "t": "OK?",
+    "c": "New Year: secret from Mom & Dad (line 2)"
+  },
+  "0x001B1974": {
+    "t": "THANK YOU!",
+    "c": "New Year: thank you!"
+  },
+  "0x001B198C": {
+    "t": "I WILL USE",
+    "c": "New Year: I will use it carefully (line 1)"
+  },
+  "0x001B19B4": {
+    "t": "TREAT!!",
+    "c": "Halloween: Trick or Treat (line 2)"
+  },
+  "0x001B19C4": {
+    "t": "GIVE ME",
+    "c": "Halloween: give me candy or... (line 1)"
+  },
+  "0x001B19D8": {
+    "t": "OR ELSE!",
+    "c": "Halloween: ...or else! (line 2)"
+  },
+  "0x001B19F0": {
+    "t": "CHEESE~",
+    "c": "Photo prompt: say cheese"
+  },
+  "0x001B1A04": {
+    "t": "LOOK[5C]",
+    "c": "Photo prompt: look this way"
+  },
+  "0x001B1A1C": {
+    "t": "3, 2,",
+    "c": "Photo countdown line 1"
+  },
+  "0x001B1A2C": {
+    "t": "3, 2, 1,",
+    "c": "Photo countdown full"
+  },
+  "0x001B1A40": {
+    "t": "WHEN U GO",
+    "c": "Departure line 1"
+  },
+  "0x001B1A54": {
+    "t": "STAY CLEAN[5C]",
+    "c": "Departure line 2: stay tidy"
+  },
+  "0x001B1A78": {
+    "t": "SAY[5C]",
+    "c": "Photo: cheese!"
+  },
+  "0x001B1A84": {
+    "t": "A GIFT",
+    "c": "Gift received line 1"
+  },
+  "0x001B1A94": {
+    "t": "FOR YOU[5C]",
+    "c": "Gift received line 2"
+  },
+  "0x001B1AA8": {
+    "t": "HERE LUNCH[5C]",
+    "c": "Lunchbox line 1"
+  },
+  "0x001B1AC4": {
+    "t": "DONT B LATE",
+    "c": "Lunchbox line 2"
+  },
+  "0x001B1AE0": {
+    "t": "CIAO",
+    "c": "Safe travels / see ya"
+  },
+  "0x001B1AEC": {
+    "t": "HOME",
+    "c": "Returned home"
+  },
+  "0x001B1AF8": {
+    "t": "GRATS[5C]",
+    "c": "Achievement congratulations"
+  },
+  "0x001B1B08": {
+    "t": "PAL ITEM",
+    "c": "Friend item line 1"
+  },
+  "0x001B1B1C": {
+    "t": "GET[5C]",
+    "c": "Friend item line 2: got it"
+  },
+  "0x001B1B2C": {
+    "t": "PAL BOOK",
+    "c": "Friends connected"
+  },
+  "0x001B1B40": {
+    "t": "SYNCING[53]",
+    "c": "Syncing data"
+  },
+  "0x001B1B54": {
+    "t": "RESORT",
+    "c": "At resort"
+  },
+  "0x001B1B68": {
+    "t": "CAN GO",
+    "c": "Can go out"
+  },
+  "0x001B1B78": {
+    "t": "OPEN[5C]",
+    "c": "Area unlocked"
+  },
+  "0x001B1B8C": {
+    "t": "WELCOME",
+    "c": "Dept store greeting"
+  },
+  "0x001B1B9C": {
+    "t": "THANKS",
+    "c": "status_overlay: Thanks"
+  },
+  "0x001B1BB4": {
+    "t": "A YUMMY",
+    "c": "Area unlock: Gourmet Street line 1"
+  },
+  "0x001B1BC8": {
+    "t": "PLACE",
+    "c": "Area unlock: Gourmet Street line 2"
+  },
+  "0x001B1BD4": {
+    "t": "AWAITS U",
+    "c": "Area unlock: Gourmet Street line 3"
+  },
+  "0x001B1BE8": {
+    "t": "LETS GO[5C]♪",
+    "c": "Area unlock: Gourmet Street line 4"
+  },
+  "0x001B1C00": {
+    "t": "FOOD ST",
+    "c": "Area unlock: Gourmet Street name"
+  },
+  "0x001B1C14": {
+    "t": "OPENED[DD]",
+    "c": "Area unlock: Gourmet Street done"
+  },
+  "0x001B1C28": {
+    "t": "FRUIT GREW[5C]",
+    "c": "Area unlock: Tama Farm line 1"
+  },
+  "0x001B1C44": {
+    "t": "★SHARE W ALL",
+    "c": "Area unlock: Tama Farm line 2"
+  },
+  "0x001B1C60": {
+    "t": "TAMA FM",
+    "c": "Area unlock: Tama Farm name"
+  },
+  "0x001B1C70": {
+    "t": "OPENED☀",
+    "c": "Area unlock: Tama Farm done"
+  },
+  "0x001B1C84": {
+    "t": "SCARED YA[5D]",
+    "c": "Area unlock: Toy Park line 1"
+  },
+  "0x001B1C9C": {
+    "t": "LETS PLAY",
+    "c": "Area unlock: Toy Park line 2"
+  },
+  "0x001B1CB4": {
+    "t": "TOGETHER[63]",
+    "c": "Area unlock: Toy Park line 3"
+  },
+  "0x001B1CCC": {
+    "t": "FOLLOW ME[5C]",
+    "c": "Area unlock: Toy Park line 4"
+  },
+  "0x001B1CE4": {
+    "t": "TOY PARK",
+    "c": "Area unlock: Toy Park name"
+  },
+  "0x001B1CF8": {
+    "t": "OPENED♪",
+    "c": "Area unlock: Toy Park done"
+  },
+  "0x001B1D0C": {
+    "t": "PUROLAND",
+    "c": "Area unlock: Puroland name"
+  },
+  "0x001B1D20": {
+    "t": "M LAND",
+    "c": "Area unlock: Marieland name"
+  },
+  "0x001B1D30": {
+    "t": "OPENED♥",
+    "c": "Area unlock: Marieland done"
+  },
+  "0x001B1D44": {
+    "t": "[5D]★STAR WORLD",
+    "c": "Area unlock: Star World intro"
+  },
+  "0x001B1D60": {
+    "t": "STROLL W US",
+    "c": "Area unlock: Star World line 2"
+  },
+  "0x001B1D7C": {
+    "t": "I AM LALA★★★",
+    "c": "Area unlock: Lala intro"
+  },
+  "0x001B1D98": {
+    "t": "★★★I AM KIKI",
+    "c": "Area unlock: Kiki intro"
+  },
+  "0x001B1DEC": {
+    "t": "STAR WD",
+    "c": "Area unlock: Star World name"
+  },
+  "0x001B1DFC": {
+    "t": "OPENED★",
+    "c": "Area unlock: Star World done"
+  },
+  "0x001B1E10": {
+    "t": "BERRY KD",
+    "c": "Area unlock: Strawberry Kingdom name"
+  },
+  "0x001B1E24": {
+    "t": "OPENED[DF]",
+    "c": "Area unlock: Strawberry Kingdom done"
+  },
+  "0x001B1E38": {
+    "t": "LUCKY ITEM",
+    "c": "Lucky item notification line 1"
+  },
+  "0x001B1E58": {
+    "t": "WAIT",
+    "c": "Lucky item line 2"
+  },
+  "0x001B1E64": {
+    "t": "A SEC[5C]",
+    "c": "Lucky item line 3"
+  },
+  "0x001B2490": {
+    "t": "GIVE",
+    "c": "marriage: Give ring"
+  },
+  "0x001B24EC": {
+    "t": "ACCEPT[5D]",
+    "c": "marriage: Accept proposal"
+  },
+  "0x001B2518": {
+    "t": "MARRY[5D]",
+    "c": "Marriage: propose? (parent of 0x1B251A)"
+  },
+  "0x001B2A64": {
+    "t": "EDIT MSG",
+    "c": "marriage: Edit message"
+  },
+  "0x001B2A80": {
+    "t": "CANCEL[5D]",
+    "c": "marriage: Cancel"
+  },
+  "0x001B3848": {
+    "t": "THIS?",
+    "c": "Confirmation: Choose this?"
+  },
+  "0x001B38C4": {
+    "t": "PHOTO?",
+    "c": "Confirmation: Take photo?"
+  },
+  "0x001B38D4": {
+    "t": "MARRY",
+    "c": "Confirmation: Marriage"
+  },
+  "0x001B38E0": {
+    "t": "CANT DO",
+    "c": "Confirmation: Cant do it"
+  },
+  "0x001B38F0": {
+    "t": "TO FRIEND",
+    "c": "Confirmation: to this friend"
+  },
+  "0x001B3904": {
+    "t": "FR FRIEND",
+    "c": "Confirmation: from this friend"
+  },
+  "0x001B407C": {
+    "t": "PASS",
+    "c": "connection: Passkey label"
+  },
+  "0x001B408C": {
+    "t": "WHEN DONE",
+    "c": "Input UI: when done entering"
+  },
+  "0x001B40A8": {
+    "t": "PRESS B OK",
+    "c": "Connection/input UI"
+  },
+  "0x001B40C0": {
+    "t": "OUTGOING",
+    "c": "Connection/input UI"
+  },
+  "0x001B40F4": {
+    "t": "GOOD PASS",
+    "c": "Password entry. SUBSTRING: char 5+ read as PASS label"
+  },
+  "0x001B410C": {
+    "t": "ENTER",
+    "c": "Connection/input UI"
+  },
+  "0x001B411C": {
+    "t": "RETRY",
+    "c": "Connection/input UI"
+  },
+  "0x001B412C": {
+    "t": "SKIP",
+    "c": "Connection/input UI"
+  },
+  "0x001B4140": {
+    "t": "REALLY?",
+    "c": "Confirmation: Really?"
+  },
+  "0x001B6170": {
+    "t": "IF YOU USE",
+    "c": "App connection notice (line 1)"
+  },
+  "0x001B6188": {
+    "t": "THE APP",
+    "c": "App connection notice (line 2)"
+  },
+  "0x001B61AC": {
+    "t": "FAM",
+    "c": "Notebook menu: Family"
+  },
+  "0x001B61B8": {
+    "t": "PARENTS",
+    "c": "Notebook menu: Parents"
+  },
+  "0x001B61CC": {
+    "t": "TREE",
+    "c": "Notebook menu: Family tree"
+  },
+  "0x001B61D8": {
+    "t": "ALBUM",
+    "c": "Notebook menu: Photo album"
+  },
+  "0x001B6540": {
+    "t": "CINNCAFE",
+    "c": "Cafe Cinnamon restaurant. SUBSTRING: char 5+ read as cafe label"
+  },
+  "0x001B6580": {
+    "t": "BDAYCAKE",
+    "c": "shop_food: Birthday cake"
+  },
+  "0x001B6594": {
+    "t": "PARTY",
+    "c": "shop_food: Party food"
+  },
+  "0x001B65A4": {
+    "t": "MEAL",
+    "c": "Feed menu meal. SUBSTRING: char 5+ ptr@0x1889D0. Hotel shop: 3ch display limit"
+  },
+  "0x001B65B0": {
+    "t": "EAT[5D]",
+    "c": "shop_food: Eat action"
+  },
+  "0x001B65BC": {
+    "t": "BAKERY",
+    "c": "shop_food: Bakery venue"
+  },
+  "0x001B65CC": {
+    "t": "CAFE",
+    "c": "shop_food: Cafe venue"
+  },
+  "0x001B65D8": {
+    "t": "PAL NOM",
+    "c": "Pal snack menu. SUBSTRING: char 5+ read as NOM in CINNCAFE submenu (3 ptrs)"
+  },
+  "0x001B65E8": {
+    "t": "DINER",
+    "c": "shop_food: Diner venue"
+  },
+  "0x001B65F4": {
+    "t": "PAL EAT",
+    "c": "Pal food menu. SUBSTRING: char 5+ read as EAT in CINNCAFE submenu (3 ptrs)"
+  },
+  "0x001B6ABC": {
+    "t": "ENTER CODE",
+    "c": "Password entry prompt"
+  },
+  "0x001B6D7C": {
+    "t": "あいうえお っぁぃぅぇ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6D98": {
+    "t": "かきくけこ がぎぐげご ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6DB4": {
+    "t": "さしすせそ ざじずぜぞ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6DD0": {
+    "t": "たちつてと ぉだぢづでど ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6DF0": {
+    "t": "なにぬねの なにぬねの ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E0C": {
+    "t": "はひふへほ ばびぶべぼ ぱぴぷぺぽ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E34": {
+    "t": "まみむめも まみむめも ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E50": {
+    "t": "やゆよ ゃゅょ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E64": {
+    "t": "らりるれろ らりるれろ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E80": {
+    "t": "わをん わをん ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6E94": {
+    "t": "ー~…、。（ ）「」.・! ?&○✕♥☀ ★@♪[66]⤴⤵ →←$ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F04": {
+    "t": "アイウエオ ッァィゥェヴ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F24": {
+    "t": "カキクケコ ガギグゲゴ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F40": {
+    "t": "サシスセソ ザジズゼゾ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F5C": {
+    "t": "タチツテト ォダヂヅデド ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F7C": {
+    "t": "ナニヌネノ ナニヌネノ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6F98": {
+    "t": "ハヒフヘホ バビブベボ パピプペポ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6FC0": {
+    "t": "マミムメモ マミムメモ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6FDC": {
+    "t": "ヤユヨ ャュョ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B6FF0": {
+    "t": "ラリルレロ ラリルレロ ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B700C": {
+    "t": "ワヲン ワヲン ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B75D8": {
+    "t": "SURE",
+    "c": "name_entry: Confirm name"
+  },
+  "0x001B75E4": {
+    "t": "ENTER IT",
+    "c": "name_entry: Enter name prompt"
+  },
+  "0x001B75F8": {
+    "t": "NAME[5D]",
+    "c": "name_entry: Name label"
+  },
+  "0x001B760C": {
+    "t": "LINE1",
+    "c": "Name entry: Line 1 label"
+  },
+  "0x001B7618": {
+    "t": "LINE2",
+    "c": "Name entry: Line 2 label"
+  },
+  "0x001B7624": {
+    "t": "LINE3",
+    "c": "Name entry: line 3 label"
+  },
+  "0x001B7630": {
+    "t": "LINE4",
+    "c": "Name entry: line 4 label"
+  },
+  "0x001B763C": {
+    "t": "NAME",
+    "c": "name_entry: Name label short"
+  },
+  "0x001B7648": {
+    "t": "NAME NOW",
+    "c": "name_entry: Name now prompt"
+  },
+  "0x001B768C": {
+    "t": "CONFIRM[5D]",
+    "c": "name_entry: Confirm dialog header"
+  },
+  "0x001B76A0": {
+    "t": "ALREADY",
+    "c": "name_entry: Name already taken prefix"
+  },
+  "0x001B76B0": {
+    "t": "TAKEN[5C]",
+    "c": "name_entry: Name already taken suffix"
+  },
+  "0x001B7DE0": {
+    "t": "CANT EAT",
+    "c": "Item status: Cant eat"
+  },
+  "0x001B7DF4": {
+    "t": "NO USE",
+    "c": "Item status: No use"
+  },
+  "0x001B7E10": {
+    "t": "YARD",
+    "c": "Item status: Yard"
+  },
+  "0x001B7E24": {
+    "t": "STORE",
+    "c": "Item status: Store"
+  },
+  "0x001B7E38": {
+    "t": "FULL",
+    "c": "Item status: Full"
+  },
+  "0x001B7E48": {
+    "t": "FULL[5C]",
+    "c": "Item status: Full!"
+  },
+  "0x001B7E60": {
+    "t": "PLACE",
+    "c": "Item action: Place item"
+  },
+  "0x001B7E6C": {
+    "t": "TOSS",
+    "c": "Item action: Discard/toss. Also ptr@0x1D0EA0"
+  },
+  "0x001B7E7C": {
+    "t": "ITEM",
+    "c": "Item submenu heading"
+  },
+  "0x001B7E88": {
+    "t": "WEAR",
+    "c": "Item action: Wear accessory"
+  },
+  "0x001B7E94": {
+    "t": "ACCESS",
+    "c": "Item action: Accessories"
+  },
+  "0x001B7EA4": {
+    "t": "MESSAGE",
+    "c": "Item action: Message"
+  },
+  "0x001BB6CC": {
+    "t": "TIDY?",
+    "c": "Item management: clean up?"
+  },
+  "0x001BB6DC": {
+    "t": "ITEM",
+    "c": "Check meter: item management"
+  },
+  "0x001BB728": {
+    "t": "MED KIT",
+    "c": "Check meter: Medicine kit"
+  },
+  "0x001BB7C4": {
+    "t": "FEED",
+    "c": "Check meter: Feed"
+  },
+  "0x001BB7D8": {
+    "t": "TOILET",
+    "c": "Check meter: Toilet & bath"
+  },
+  "0x001BB7EC": {
+    "t": "LINK",
+    "c": "check_meter: Link/connection"
+  },
+  "0x001BB7F8": {
+    "t": "FAM",
+    "c": "check_meter: Family"
+  },
+  "0x001BB808": {
+    "t": "TOWN",
+    "c": "check_meter: Town visits"
+  },
+  "0x001BB818": {
+    "t": "TRIP",
+    "c": "check_meter: Trip status"
+  },
+  "0x001BB824": {
+    "t": "AWAY",
+    "c": "check_meter: Away from home"
+  },
+  "0x001BB838": {
+    "t": "CHEST",
+    "c": "Chest/inventory. SUBSTRING: char 3+ read (may show EST)"
+  },
+  "0x001BB848": {
+    "t": "BOOK",
+    "c": "check_meter: Book/log"
+  },
+  "0x001BB910": {
+    "t": "READY[5C]",
+    "c": "Check meter: Ready prompt"
+  },
+  "0x001BB920": {
+    "t": "WHILE UP",
+    "c": "check_meter: While active"
+  },
+  "0x001BB934": {
+    "t": "TAMA",
+    "c": "check_meter: Tamagotchi label"
+  },
+  "0x001BB944": {
+    "t": "STATE",
+    "c": "Check meter: Status"
+  },
+  "0x001BB964": {
+    "t": "CHECK[5D]",
+    "c": "Check meter: Check prompt"
+  },
+  "0x001BB974": {
+    "t": "CONFIRM[5C]",
+    "c": "Check meter: Confirm prompt"
+  },
+  "0x001BB988": {
+    "t": "MARRY[5D]",
+    "c": "Check meter: Marry prompt"
+  },
+  "0x001BB998": {
+    "t": "MOVE IN[5D]",
+    "c": "Check meter: Move in prompt"
+  },
+  "0x001BB9DC": {
+    "t": "ONE HOME",
+    "c": "check_meter: Living together"
+  },
+  "0x001BB9F0": {
+    "t": "GATHER UP",
+    "c": "check_meter: Gather/collect"
+  },
+  "0x001BDD34": {
+    "t": "BUY?",
+    "c": "Shop: buy confirmation"
+  },
+  "0x001BDEC4": {
+    "t": "DATE",
+    "c": "Location navigation menu"
+  },
+  "0x001BDEE8": {
+    "t": "BUD☀ PARK",
+    "c": "Location label. SUBSTRING: char 5+ read as park name (ptr@0x1BDE50)"
+  },
+  "0x001BDEFC": {
+    "t": "DEPT",
+    "c": "Location navigation menu"
+  },
+  "0x001BDF08": {
+    "t": "SHOP",
+    "c": "Location navigation menu"
+  },
+  "0x001BDF1C": {
+    "t": "♪CAFE",
+    "c": "Location navigation menu"
+  },
+  "0x001BDF28": {
+    "t": "RENOV",
+    "c": "Location navigation menu"
+  },
+  "0x001BDF34": {
+    "t": "ITEMS",
+    "c": "Navigation menu"
+  },
+  "0x001BDF48": {
+    "t": "FASHION",
+    "c": "Navigation menu"
+  },
+  "0x001BDF5C": {
+    "t": "JEWEL",
+    "c": "Navigation menu"
+  },
+  "0x001BDF68": {
+    "t": "SHOP",
+    "c": "Navigation menu"
+  },
+  "0x001BDF74": {
+    "t": "ARCADE",
+    "c": "Navigation menu"
+  },
+  "0x001BDFB4": {
+    "t": "10$ TOSS?",
+    "c": "Navigation menu"
+  },
+  "0x001BDFC8": {
+    "t": "CAROUSEL",
+    "c": "attractions: Carousel ride"
+  },
+  "0x001BDFDC": {
+    "t": "HAUNT",
+    "c": "attractions: Haunted house"
+  },
+  "0x001BDFEC": {
+    "t": "TEA CUP",
+    "c": "attractions: Tea cup ride"
+  },
+  "0x001BDFFC": {
+    "t": "FERRIS",
+    "c": "attractions: Ferris wheel"
+  },
+  "0x001BE358": {
+    "t": "ACCEPT?",
+    "c": "Proposal: Accept proposal?"
+  },
+  "0x001BE3B0": {
+    "t": "TOOLS",
+    "c": "Shop category: Tools"
+  },
+  "0x001BE3BC": {
+    "t": "ACCSRY",
+    "c": "Shop category: Accessories"
+  },
+  "0x001BE4BC": {
+    "t": "REALLY?",
+    "c": "ほんとうに? — confirmation prompt"
+  },
+  "0x001BE4CC": {
+    "t": "MARRY",
+    "c": "Marriage: propose entrance (parent of 0x1BE4CE)"
+  },
+  "0x001BE4E4": {
+    "t": "BUY RING",
+    "c": "Marriage/proposal flow"
+  },
+  "0x001BE4F8": {
+    "t": "CAN PROP",
+    "c": "Marriage/proposal flow"
+  },
+  "0x001BE50C": {
+    "t": "NO MATE",
+    "c": "Marriage/proposal flow"
+  },
+  "0x001BE520": {
+    "t": "PLAZA",
+    "c": "Navigation menu"
+  },
+  "0x001BE532": {
+    "t": "PLAZA",
+    "c": "Gourmet area: Gourmet Square plaza"
+  },
+  "0x001BE544": {
+    "t": "FARM SQ",
+    "c": "Farm area: Farm Square"
+  },
+  "0x001BE556": {
+    "t": "PLAY SQ",
+    "c": "Play area: Play Square"
+  },
+  "0x001BE59E": {
+    "t": "PLAZA",
+    "c": "Strawberry area: Strawberry Square plaza"
+  },
+  "0x001BE5B0": {
+    "t": "PARK",
+    "c": "Magical area: Magical Park. SUBSTRING: char 3+ read"
+  },
+  "0x001BE5C4": {
+    "t": "SHOP",
+    "c": "Hotel area: Hotel Shop"
+  },
+  "0x001BE5D6": {
+    "t": "SHOP",
+    "c": "Gourmet area: Gourmet Store"
+  },
+  "0x001BE5E8": {
+    "t": "FARM SH",
+    "c": "Farm area: Farm Store"
+  },
+  "0x001BE5FA": {
+    "t": "SHOP",
+    "c": "Toy Factory area: Toy Factory Shop"
+  },
+  "0x001BE60C": {
+    "t": "GOODS",
+    "c": "Goods area: Goods Shop"
+  },
+  "0x001BE61E": {
+    "t": "SHOP",
+    "c": "Merry area: Merry Shop"
+  },
+  "0x001BE630": {
+    "t": "CLOUD",
+    "c": "Cloud area: Cloud Shop. SUBSTRING: char 3+ read"
+  },
+  "0x001BE642": {
+    "t": "SHOP",
+    "c": "Strawberry area: Strawberry Shop"
+  },
+  "0x001BE654": {
+    "t": "MAG SHP",
+    "c": "Magical area: Magical Shop"
+  },
+  "0x001BE668": {
+    "t": "RESORT",
+    "c": "Navigation menu"
+  },
+  "0x001BE67C": {
+    "t": "SUSHI",
+    "c": "Hotel/travel: sushi restaurant"
+  },
+  "0x001BE690": {
+    "t": "MY FARM",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE6A4": {
+    "t": "TRAMPLNE♪",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE6B8": {
+    "t": "S.PARADE",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE6F4": {
+    "t": "BERRY PRT",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE71C": {
+    "t": "LODGE",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE728": {
+    "t": "MARRY",
+    "c": "Hotel/travel: propose"
+  },
+  "0x001BE74C": {
+    "t": "BRING",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE75C": {
+    "t": "ITEM[5D]",
+    "c": "Hotel/travel navigation"
+  },
+  "0x001BE7C0": {
+    "t": "WHICH",
+    "c": "どちらが (which one?) — selection prompt"
+  },
+  "0x001BE7CC": {
+    "t": "MARRY[5D]",
+    "c": "Hotel/travel: propose action"
+  },
+  "0x001BE8EC": {
+    "t": "NORM",
+    "c": "Navigation menu"
+  },
+  "0x001BE8F8": {
+    "t": "PUROLAN",
+    "c": "area_nav: Puroland"
+  },
+  "0x001BE90C": {
+    "t": "MERRY",
+    "c": "area_nav: Merry area"
+  },
+  "0x001BE91C": {
+    "t": "STARS",
+    "c": "area_nav: Stars area"
+  },
+  "0x001BE92C": {
+    "t": "BERRIES",
+    "c": "area_nav: Berries"
+  },
+  "0x001BE9E8": {
+    "t": "NEW",
+    "c": "Icon background: New"
+  },
+  "0x001BE9F4": {
+    "t": "ICON BG",
+    "c": "Icon background settings"
+  },
+  "0x001BEA08": {
+    "t": "STYLE",
+    "c": "デザインを (design) — icon BG design menu"
+  },
+  "0x001BEA14": {
+    "t": "PROFILE",
+    "c": "Check meter: Profile"
+  },
+  "0x001D0000": {
+    "t": "FROM MY\nHEART\nI LOVE U♥",
+    "c": "System menu"
+  },
+  "0x001D0030": {
+    "t": "MY HEART\nMELTS!\nMARRY ME!♥",
+    "c": "System menu"
+  },
+  "0x001D0068": {
+    "t": "NO WAY!\nI THINK\nI LIKE YOU♥",
+    "c": "System menu"
+  },
+  "0x001D00A0": {
+    "t": "LOVE JUTSU!\nMARRY ME\nNYA♥",
+    "c": "System menu"
+  },
+  "0x001D00D8": {
+    "t": "MY FAIRY\nTALE\nPRINCESS♥",
+    "c": "System menu"
+  },
+  "0x001D0110": {
+    "t": "I LIKE U!\nI CANT\nHIDE IT!",
+    "c": "System menu"
+  },
+  "0x001D0144": {
+    "t": "MAY I WED\nYOU MY DEAR♥",
+    "c": "System menu"
+  },
+  "0x001D0174": {
+    "t": "I PROMISE TO\nPROTECT YOU!",
+    "c": "System menu"
+  },
+  "0x001D01AC": {
+    "t": "IM SCARED\nBUT\nMARRY ME!♥",
+    "c": "System menu"
+  },
+  "0x001D01E0": {
+    "t": "ITS DECIDED!\nI LOVE YOU!♥",
+    "c": "System menu"
+  },
+  "0x001D0214": {
+    "t": "I LOVE TO\nGAZE AT YOU♥",
+    "c": "System menu"
+  },
+  "0x001D0248": {
+    "t": "I WANT TO\nMARRY YOU!♥",
+    "c": "System menu"
+  },
+  "0x001D0274": {
+    "t": "PLEASE MARRY\nME PO♥",
+    "c": "System menu"
+  },
+  "0x001D029C": {
+    "t": "I FELL FOR\nYOU SHIMA@",
+    "c": "System menu"
+  },
+  "0x001D02C8": {
+    "t": "SWEET\nMOMENTS\nTOGETHER♥",
+    "c": "System menu"
+  },
+  "0x001D02F8": {
+    "t": "COZY MOMENTS\nTOGETHER♥",
+    "c": "System menu"
+  },
+  "0x001D0328": {
+    "t": "LETS WEAVE\nOUR FUTURE♪",
+    "c": "System menu"
+  },
+  "0x001D0358": {
+    "t": "I WILL MAKE\nYOU SO\nHAPPY♥☀",
+    "c": "System menu"
+  },
+  "0x001D0390": {
+    "t": "COLORFUL\nDAYS\nTOGETHER♥",
+    "c": "System menu"
+  },
+  "0x001D03C4": {
+    "t": "KARAP",
+    "c": "System menu"
+  },
+  "0x001D03D4": {
+    "t": "RIBOP",
+    "c": "System menu"
+  },
+  "0x001D03E4": {
+    "t": "MERIRI",
+    "c": "System menu"
+  },
+  "0x001D03F4": {
+    "t": "MOKUKU",
+    "c": "System menu"
+  },
+  "0x001D0404": {
+    "t": "YUMEHO",
+    "c": "System menu"
+  },
+  "0x001D0414": {
+    "t": "PYOKOKO",
+    "c": "System menu"
+  },
+  "0x001D0424": {
+    "t": "HANBUNKO",
+    "c": "System menu"
+  },
+  "0x001D0438": {
+    "t": "MOFURIT",
+    "c": "System menu"
+  },
+  "0x001D0448": {
+    "t": "PENRIBO",
+    "c": "System menu"
+  },
+  "0x001D0458": {
+    "t": "KURUPOY",
+    "c": "System menu"
+  },
+  "0x001D0468": {
+    "t": "TERUKRO",
+    "c": "System menu"
+  },
+  "0x001D0478": {
+    "t": "METTOTC",
+    "c": "System menu"
+  },
+  "0x001D0488": {
+    "t": " PURE  PART",
+    "c": "System menu"
+  },
+  "0x001D04A0": {
+    "t": "MAMET",
+    "c": "System menu"
+  },
+  "0x001D04AC": {
+    "t": "KUCHIPA",
+    "c": "System menu"
+  },
+  "0x001D04BC": {
+    "t": "MEMET",
+    "c": "System menu"
+  },
+  "0x001D04C8": {
+    "t": "LOVELI",
+    "c": "System menu"
+  },
+  "0x001D04D8": {
+    "t": "KIKIT",
+    "c": "System menu"
+  },
+  "0x001D04E4": {
+    "t": "FLOWERT",
+    "c": "System menu"
+  },
+  "0x001D04F4": {
+    "t": "WATATA",
+    "c": "System menu"
+  },
+  "0x001D0504": {
+    "t": "NIJIFUW",
+    "c": "System menu"
+  },
+  "0x001D0514": {
+    "t": "GOZARUT",
+    "c": "System menu"
+  },
+  "0x001D0524": {
+    "t": "KUROMAM",
+    "c": "System menu"
+  },
+  "0x001D0534": {
+    "t": "COFFRET",
+    "c": "System menu"
+  },
+  "0x001D0544": {
+    "t": "OMUCHAPT",
+    "c": "System menu"
+  },
+  "0x001D0558": {
+    "t": "PIZZARIN",
+    "c": "System menu"
+  },
+  "0x001D056C": {
+    "t": "KAPPATCHI",
+    "c": "System menu"
+  },
+  "0x001D0580": {
+    "t": "CHERRYTCH",
+    "c": "System menu"
+  },
+  "0x001D0594": {
+    "t": "HATAKEMOT",
+    "c": "System menu"
+  },
+  "0x001D05A8": {
+    "t": "YOMOMOT",
+    "c": "System menu"
+  },
+  "0x001D05B8": {
+    "t": "BONNETC",
+    "c": "System menu"
+  },
+  "0x001D05C8": {
+    "t": "NEJIROB",
+    "c": "System menu"
+  },
+  "0x001D05D8": {
+    "t": "PONPON",
+    "c": "System menu"
+  },
+  "0x001D05E8": {
+    "t": "CHUCHU",
+    "c": "System menu"
+  },
+  "0x001D05FC": {
+    "t": "OYOGUGURU",
+    "c": "System menu"
+  },
+  "0x001D0610": {
+    "t": "CHARISM",
+    "c": "System menu"
+  },
+  "0x001D0620": {
+    "t": "KIMINANI",
+    "c": "System menu"
+  },
+  "0x001D0634": {
+    "t": "MOCHIUS",
+    "c": "System menu"
+  },
+  "0x001D0644": {
+    "t": "FAIRYTC",
+    "c": "System menu"
+  },
+  "0x001D0654": {
+    "t": "UNIPEGAS",
+    "c": "System menu"
+  },
+  "0x001D0668": {
+    "t": "MAJORIT",
+    "c": "System menu"
+  },
+  "0x001D0678": {
+    "t": "KOROBATT",
+    "c": "System menu"
+  },
+  "0x001D06A0": {
+    "t": "PIYOTAMA",
+    "c": "System menu"
+  },
+  "0x001D06B4": {
+    "t": "TAMA LADY",
+    "c": "System menu"
+  },
+  "0x001D06C8": {
+    "t": "TAMA BOY",
+    "c": "System menu"
+  },
+  "0x001D06DC": {
+    "t": "FLEUR FLR",
+    "c": "System menu"
+  },
+  "0x001D06F0": {
+    "t": "YOTSUBA",
+    "c": "System menu"
+  },
+  "0x001D0700": {
+    "t": "CHOCHO",
+    "c": "System menu"
+  },
+  "0x001D0714": {
+    "t": "OKAZARU",
+    "c": "System menu"
+  },
+  "0x001D0724": {
+    "t": "H KITTY",
+    "c": "System menu"
+  },
+  "0x001D0734": {
+    "t": "MY MELO",
+    "c": "System menu"
+  },
+  "0x001D0750": {
+    "t": "CINNA",
+    "c": "System menu"
+  },
+  "0x001D076C": {
+    "t": "GUDET",
+    "c": "System menu"
+  },
+  "0x001D0784": {
+    "t": "KEROP",
+    "c": "System menu"
+  },
+  "0x001D0798": {
+    "t": "BADTZ-MAR",
+    "c": "System menu"
+  },
+  "0x001D07AC": {
+    "t": "PRC MAMET",
+    "c": "System menu"
+  },
+  "0x001D07C0": {
+    "t": "PRC LOVLI",
+    "c": "System menu"
+  },
+  "0x001D07D4": {
+    "t": "GNI KUCHI",
+    "c": "System menu"
+  },
+  "0x001D07E8": {
+    "t": "CRPT MELODY",
+    "c": "System menu"
+  },
+  "0x001D0800": {
+    "t": "ALICM",
+    "c": "System: Alice Mama"
+  },
+  "0x001D0810": {
+    "t": "HATTR",
+    "c": "System menu"
+  },
+  "0x001D081C": {
+    "t": "NAMAHAG",
+    "c": "System menu"
+  },
+  "0x001D082C": {
+    "t": "KIRAYUK",
+    "c": "System menu"
+  },
+  "0x001D083C": {
+    "t": "CHANKOT",
+    "c": "System menu"
+  },
+  "0x001D084C": {
+    "t": "JKU CREPE",
+    "c": "System menu"
+  },
+  "0x001D0860": {
+    "t": "TMA GYAOT",
+    "c": "System menu"
+  },
+  "0x001D0874": {
+    "t": "HIMEFUJIM",
+    "c": "System menu"
+  },
+  "0x001D0888": {
+    "t": "TAKOYAKIT",
+    "c": "System menu"
+  },
+  "0x001D089C": {
+    "t": "MAIKOT",
+    "c": "System menu"
+  },
+  "0x001D08AC": {
+    "t": "TSAPOCH",
+    "c": "System menu"
+  },
+  "0x001D08BC": {
+    "t": "UZUSHIO",
+    "c": "System menu"
+  },
+  "0x001D08D0": {
+    "t": "SHISA GOY",
+    "c": "System menu"
+  },
+  "0x001D08E4": {
+    "t": "AMAI KUMA",
+    "c": "System menu"
+  },
+  "0x001D08F8": {
+    "t": "TSUKUSHI",
+    "c": "System menu"
+  },
+  "0x001D0A5C": {
+    "t": "AWWW",
+    "c": "ざんねん (too bad/unfortunately)"
+  },
+  "0x001D0A68": {
+    "t": "SHORT",
+    "c": "save_room: Short room type"
+  },
+  "0x001D0A74": {
+    "t": "RENOVATE",
+    "c": "save_room: Renovate"
+  },
+  "0x001D0A88": {
+    "t": "ROOM",
+    "c": "save_room: Room"
+  },
+  "0x001D0C60": {
+    "t": "ITEMS",
+    "c": "System menu"
+  },
+  "0x001D0C6C": {
+    "t": "FULL!",
+    "c": "System menu"
+  },
+  "0x001D0C7C": {
+    "t": "CHOOSE",
+    "c": "System menu"
+  },
+  "0x001D0C8C": {
+    "t": "DISCARD",
+    "c": "System menu"
+  },
+  "0x001D0DAC": {
+    "t": "LOAD",
+    "c": "save_room: Load save"
+  },
+  "0x001D0DB8": {
+    "t": "けしますREM",
+    "c": "Save menu erase label. SUBSTRING: char 5+ read as item discard label (ptr@0x1B7CBC)"
+  },
+  "0x001D0DC8": {
+    "t": "SURE[5D]",
+    "c": "Save menu: Sure? confirm"
+  },
+  "0x001D0E18": {
+    "t": "NO MORE",
+    "c": "これいじょう (no more than this/can't hold more)"
+  },
+  "0x001D0E28": {
+    "t": "CANT SAVE",
+    "c": "save_room: Cannot save"
+  },
+  "0x001D0E3C": {
+    "t": "DEL[5D]",
+    "c": "Save menu: Delete confirm"
+  },
+  "0x001D0FD0": {
+    "t": "ITEM",
+    "c": "おどうぐ (tools/items)"
+  },
+  "0x001D14AC": {
+    "t": "PLAY ITEM",
+    "c": "System menu"
+  },
+  "0x001D1D94": {
+    "t": "LEAVE",
+    "c": "save_room: Leave room"
+  },
+  "0x001D1DA0": {
+    "t": "HOME",
+    "c": "save_room: Go home"
+  },
+  "0x001D1DAC": {
+    "t": "NO WAY",
+    "c": "save_room: Cannot do action"
+  },
+  "0x001D1DBC": {
+    "t": "NO LEAVE",
+    "c": "save_room: Cannot leave"
+  },
+  "0x001D1EFC": {
+    "t": "TIMESET",
+    "c": "System menu"
+  },
+  "0x001D1F0C": {
+    "t": "DIM  SET",
+    "c": "Settings: brightness (PARENT - substring at +8 reads SET)"
+  },
+  "0x001D1F20": {
+    "t": "SOUND",
+    "c": "settings: Sound toggle"
+  },
+  "0x001D1F34": {
+    "t": "ICON BG",
+    "c": "settings: Icon background"
+  },
+  "0x001D1FB0": {
+    "t": "CLEAN",
+    "c": "System menu"
+  },
+  "0x001D1FC0": {
+    "t": "BONUS",
+    "c": "settings: Bonus label"
+  },
+  "0x001D2080": {
+    "t": "HOTEL",
+    "c": "hotel_nav: Hotel destination (was HOTEL)"
+  },
+  "0x001D2090": {
+    "t": "GOURMET",
+    "c": "world_map: Gourmet Street"
+  },
+  "0x001D20A4": {
+    "t": "FARM",
+    "c": "world_map: Farm"
+  },
+  "0x001D20B4": {
+    "t": "TOYPARK",
+    "c": "world_map: Toy Park"
+  },
+  "0x001D20DC": {
+    "t": "MERRY",
+    "c": "world_map: Merry Land"
+  },
+  "0x001D20EC": {
+    "t": "STARS",
+    "c": "world_map: Stars area"
+  },
+  "0x001D20FC": {
+    "t": "BERRIES",
+    "c": "Area name. SUBSTRING: char 3+ read by 7 ptrs"
+  },
+  "0x001D2110": {
+    "t": "MAGICAL",
+    "c": "world_map: Magical area"
+  },
+  "0x001D2124": {
+    "t": "PARENTS",
+    "c": "world_map: Parents"
+  },
+  "0x001D2140": {
+    "t": "MSG",
+    "c": "social: Message"
+  },
+  "0x001D214C": {
+    "t": "OLD MSG",
+    "c": "social: Old message"
+  },
+  "0x001D2160": {
+    "t": "ERASE",
+    "c": "social: Erase"
+  },
+  "0x001D2180": {
+    "t": "MEET",
+    "c": "social: Meet friend"
+  },
+  "0x001D218C": {
+    "t": "BYE[5D]",
+    "c": "social: Goodbye"
+  },
+  "0x001D2198": {
+    "t": "MSG FROM\nFRIEND[62]",
+    "c": "social: Incoming message notification"
+  },
+  "0x001D21BC": {
+    "t": "EDIT MSG",
+    "c": "social: Edit message"
+  },
+  "0x001D21D0": {
+    "t": "LOG",
+    "c": "social: Communication log"
+  },
+  "0x001D21E0": {
+    "t": "BYE",
+    "c": "social: Bye"
+  },
+  "0x001D21EC": {
+    "t": "FRIENDS",
+    "c": "social: Friends screen"
+  },
+  "0x001D21FC": {
+    "t": "PHOTOLOG",
+    "c": "social: Photo log"
+  },
+  "0x001D2230": {
+    "t": "THANKS★ FUN♪\nLINK UP\nAGAIN!",
+    "c": "System menu"
+  },
+  "0x001D2278": {
+    "t": "LINK MORE★\nGOOD THINGS\nAWAIT!☀",
+    "c": "System menu"
+  },
+  "0x001D22C0": {
+    "t": "I MISSED U\nSO I SENT\nA LETTER★",
+    "c": "System menu"
+  },
+  "0x001D2308": {
+    "t": "NEXT TIME\nSHARE OUR\nSECRETS♪",
+    "c": "System menu"
+  },
+  "0x001D2350": {
+    "t": "EARLY BIRD☀\nPARK PLAY\nIS FUN★",
+    "c": "System menu"
+  },
+  "0x001D2394": {
+    "t": "LOOKING 4 A\nBUDDY★\nWHERE 2 GO?",
+    "c": "System menu"
+  },
+  "0x001D23DC": {
+    "t": "WANNA LINK\nUP?? IM\nWAITING!♥♥",
+    "c": "System menu"
+  },
+  "0x001D2428": {
+    "t": "LINK DAYS R\nSPECIAL!\nTAKE PHOTOS\n☀☀",
+    "c": "System menu"
+  },
+  "0x001D2AC8": {
+    "t": "FRIENDS",
+    "c": "System menu"
+  },
+  "0x001D2ADC": {
+    "t": "UPDATED!",
+    "c": "System menu"
+  },
+  "0x001D2AF0": {
+    "t": "FORTUNE[53]",
+    "c": "System menu"
+  },
+  "0x001D2B04": {
+    "t": "NOT YET",
+    "c": "Status label. SUBSTRING: char 3+ read by 3 ptrs"
+  },
+  "0x001D2B14": {
+    "t": "THIS TAMA",
+    "c": "marriage: This Tamagotchi"
+  },
+  "0x001D2B28": {
+    "t": "DECLINED",
+    "c": "marriage: Proposal declined"
+  },
+  "0x001D2B3C": {
+    "t": "RING?",
+    "c": "marriage: Propose"
+  },
+  "0x001D2B4C": {
+    "t": "FROM THIS",
+    "c": "marriage: From this Tama"
+  },
+  "0x001D2B60": {
+    "t": "NONE",
+    "c": "marriage: No partner"
+  },
+  "0x001D2B6C": {
+    "t": "UR PET",
+    "c": "たまペットが (your Tama pet...)"
+  },
+  "0x001D2B7C": {
+    "t": "TWIN",
+    "c": "marriage: Twin birth"
+  },
+  "0x001D2B88": {
+    "t": "TO MARRY",
+    "c": "marriage: To marry"
+  },
+  "0x001D2B9C": {
+    "t": "PICK RING",
+    "c": "marriage: Pick ring"
+  },
+  "0x001D2BB0": {
+    "t": "PICK",
+    "c": "marriage: Pick"
+  },
+  "0x001D2BBC": {
+    "t": "BLOCKED",
+    "c": "marriage: Blocked"
+  },
+  "0x001D2BCC": {
+    "t": "OUTING",
+    "c": "marriage: Outing"
+  },
+  "0x001D2BDC": {
+    "t": "GAME",
+    "c": "Connection: Mini game and..."
+  },
+  "0x001D2BEC": {
+    "t": "TAMA",
+    "c": "Connection: Tamagotchis..."
+  },
+  "0x001D2C00": {
+    "t": "AVTR",
+    "c": "アバター (avatar)"
+  },
+  "0x001D2C0C": {
+    "t": "PHOTO GO",
+    "c": "connection: Photo go"
+  },
+  "0x001D2C28": {
+    "t": "MOVE TO",
+    "c": "connection: Move to"
+  },
+  "0x001D2C3C": {
+    "t": "MOVING",
+    "c": "connection: Moving/transferring"
+  },
+  "0x001D2F64": {
+    "t": "W APP",
+    "c": "アプリとの (with the app)"
+  },
+  "0x001D2F70": {
+    "t": "SYNC",
+    "c": "connection: Sync"
+  },
+  "0x001D2F7C": {
+    "t": "STANDBY",
+    "c": "connection: Standby"
+  },
+  "0x001D30E0": {
+    "t": "REALLY?",
+    "c": "ほんとうに? (really?) — confirmation prompt"
+  },
+  "0x001D326C": {
+    "t": "TM HTL",
+    "c": "System: Tama Hotel"
+  },
+  "0x001D327C": {
+    "t": "GOURMET",
+    "c": "System menu"
+  },
+  "0x001D3290": {
+    "t": "T FARM",
+    "c": "System menu"
+  },
+  "0x001D32A0": {
+    "t": "TOY PARK",
+    "c": "System menu"
+  },
+  "0x001D32B4": {
+    "t": "PUROLAND",
+    "c": "System menu"
+  },
+  "0x001D32C8": {
+    "t": "MARRLND",
+    "c": "System menu"
+  },
+  "0x001D32D8": {
+    "t": "STAR W",
+    "c": "System: Star World"
+  },
+  "0x001D32E8": {
+    "t": "STRBRY KG",
+    "c": "System menu"
+  },
+  "0x001D32FC": {
+    "t": "TOWN CLO",
+    "c": "System menu"
+  },
+  "0x001D3310": {
+    "t": "TOWN OP",
+    "c": "System menu"
+  },
+  "0x001D3320": {
+    "t": "SELF SHOT",
+    "c": "System menu"
+  },
+  "0x001D3334": {
+    "t": "D-PROG 2",
+    "c": "System menu"
+  },
+  "0x001D3348": {
+    "t": "PAT 3",
+    "c": "System menu"
+  },
+  "0x001D3354": {
+    "t": "PAT 2",
+    "c": "System menu"
+  },
+  "0x001D3360": {
+    "t": "PAT 1",
+    "c": "System menu"
+  },
+  "0x001D336C": {
+    "t": "D-PALET",
+    "c": "System menu"
+  },
+  "0x001D337C": {
+    "t": "MT CHR UP",
+    "c": "System menu"
+  },
+  "0x001D3390": {
+    "t": "ML←→FEM",
+    "c": "System menu"
+  },
+  "0x001D33A0": {
+    "t": "GROW ON",
+    "c": "System menu"
+  },
+  "0x001D33B0": {
+    "t": "ALB DEL",
+    "c": "System menu"
+  },
+  "0x001D33C0": {
+    "t": "ALB DISP",
+    "c": "System menu"
+  },
+  "0x001D33D4": {
+    "t": "CAMSHOT",
+    "c": "System menu"
+  },
+  "0x001D33E4": {
+    "t": "CHG SIBL",
+    "c": "System menu"
+  },
+  "0x001D33F8": {
+    "t": "2~EBCD",
+    "c": "2~EBCD — data/label string, unclear purpose, kept as is"
+  },
+  "0x001D3414": {
+    "t": "FRIENDS",
+    "c": "settings: Friends list"
+  },
+  "0x001D3428": {
+    "t": "GOODBYE",
+    "c": "System: say goodbye"
+  },
+  "0x001D3438": {
+    "t": "CALL",
+    "c": "settings: Call"
+  },
+  "0x001D3444": {
+    "t": "VISIT",
+    "c": "Visit label. SUBSTRING: char 3+ read by 2 ptrs"
+  },
+  "0x001D3450": {
+    "t": "GO OUT",
+    "c": "settings: Go out"
+  },
+  "0x001D3468": {
+    "t": "BAG",
+    "c": "settings: Bag/items"
+  },
+  "0x001D347C": {
+    "t": "NO SPACE",
+    "c": "settings: No storage space"
+  },
+  "0x001D3490": {
+    "t": "APP DATA",
+    "c": "settings: App data sync"
+  },
+  "0x001D34A4": {
+    "t": "RETURN",
+    "c": "settings: Return"
+  },
+  "0x001D34B4": {
+    "t": "STUCK",
+    "c": "settings: Stuck/error"
+  },
+  "0x001D34C0": {
+    "t": "TAMA",
+    "c": "たまごっち (Tamagotchi) — label"
+  },
+  "0x001D34CC": {
+    "t": "DWNLD",
+    "c": "settings: Download"
+  },
+  "0x001D34E4": {
+    "t": "[66]DBG ST",
+    "c": "Travel/visit menu"
+  },
+  "0x001D34F8": {
+    "t": "D-CHR ALL",
+    "c": "Travel/visit menu"
+  },
+  "0x001D350C": {
+    "t": "D-TWIN",
+    "c": "Download twin. SUBSTRING: char 3+ read (may show TWIN)"
+  },
+  "0x001D3520": {
+    "t": "D-DATA",
+    "c": "Download data. SUBSTRING: char 3+ read (may show DATA)"
+  },
+  "0x001D3534": {
+    "t": "D-PET SET",
+    "c": "Travel/visit menu"
+  },
+  "0x001D3548": {
+    "t": "D-PROG",
+    "c": "Download progress. SUBSTRING: char 3+ read (may show PROG)"
+  },
+  "0x001D3558": {
+    "t": "GIFT",
+    "c": "settings: Gift"
+  },
+  "0x001D356C": {
+    "t": "TRADE",
+    "c": "settings: Trade"
+  },
+  "0x001D3580": {
+    "t": "TRIP",
+    "c": "settings: Trip"
+  },
+  "0x001D358C": {
+    "t": "T.PET",
+    "c": "System menu"
+  },
+  "0x001D3598": {
+    "t": "GET ITEM",
+    "c": "settings: Get item"
+  },
+  "0x001D35AC": {
+    "t": "GAME",
+    "c": "settings: Mini game"
+  },
+  "0x001D35B8": {
+    "t": "WHERE[5D]",
+    "c": "settings: Where prompt"
+  },
+  "0x001D35F8": {
+    "t": "FUN[5D]",
+    "c": "settings: Fun activity"
+  },
+  "0x001DE2C8": {
+    "t": "TOO BAD⤵\nTRY AGAIN!",
+    "c": "System menu"
+  },
+  "0x001DE2F0": {
+    "t": "1 RIGHT!\nKEEP IT UP!",
+    "c": "System menu"
+  },
+  "0x001DE31C": {
+    "t": "ALMOST!\nSO CLOSE!",
+    "c": "System menu"
+  },
+  "0x001DE340": {
+    "t": "PERFECT!★★★",
+    "c": "System menu"
+  },
+  "0x001DE37C": {
+    "t": "TOKYO",
+    "c": "System menu"
+  },
+  "0x001DE394": {
+    "t": "PUD RUN",
+    "c": "System menu"
+  },
+  "0x001DE3A8": {
+    "t": "BUNNY",
+    "c": "System menu"
+  },
+  "0x001DE3B8": {
+    "t": "SOLO",
+    "c": "System menu"
+  },
+  "0x001DE3C8": {
+    "t": "BOILEGG",
+    "c": "System menu"
+  },
+  "0x001DE3E4": {
+    "t": "SHARPY",
+    "c": "System menu"
+  },
+  "0x001DE400": {
+    "t": "FIR T",
+    "c": "System menu"
+  },
+  "0x001DE40C": {
+    "t": "MOUNT",
+    "c": "Quiz: mountain"
+  },
+  "0x001DE41C": {
+    "t": "STRBRY",
+    "c": "System menu"
+  },
+  "0x001DE42C": {
+    "t": "BAKERY",
+    "c": "System menu"
+  },
+  "0x001DE43C": {
+    "t": "AUGUST",
+    "c": "System menu"
+  },
+  "0x001DE44C": {
+    "t": "PASTRY",
+    "c": "System menu"
+  },
+  "0x001DE468": {
+    "t": "MAMET",
+    "c": "System menu"
+  },
+  "0x001DE474": {
+    "t": "SORRY",
+    "c": "System menu"
+  },
+  "0x001DE484": {
+    "t": "RAMEN",
+    "c": "System menu"
+  },
+  "0x001DE49C": {
+    "t": "CAKEBOG",
+    "c": "System menu"
+  },
+  "0x001DE4AC": {
+    "t": "WEED",
+    "c": "Quiz: weeding"
+  },
+  "0x001DE4C8": {
+    "t": "DNDLN",
+    "c": "System menu"
+  },
+  "0x001DE4D4": {
+    "t": "ALL 88",
+    "c": "System menu"
+  },
+  "0x001DE4E4": {
+    "t": "MUSICIAN",
+    "c": "System menu"
+  },
+  "0x001DE504": {
+    "t": "READ",
+    "c": "System menu"
+  },
+  "0x001DE590": {
+    "t": "CHARMMY",
+    "c": "System menu"
+  },
+  "0x001DE5A0": {
+    "t": "LONDN",
+    "c": "System menu"
+  },
+  "0x001DE5B4": {
+    "t": "PUD JUMP",
+    "c": "System menu"
+  },
+  "0x001DE5E0": {
+    "t": "FAKE T",
+    "c": "Quiz: fake tama"
+  },
+  "0x001DE5F0": {
+    "t": "100 PCS",
+    "c": "System menu"
+  },
+  "0x001DE600": {
+    "t": "ONPU KN",
+    "c": "System menu"
+  },
+  "0x001DE610": {
+    "t": "TAIYOUT",
+    "c": "System menu"
+  },
+  "0x001DE620": {
+    "t": "LTREE",
+    "c": "System menu"
+  },
+  "0x001DE62C": {
+    "t": "ON SEA",
+    "c": "System menu"
+  },
+  "0x001DE63C": {
+    "t": "TRANSF",
+    "c": "Quiz: transform"
+  },
+  "0x001DE64C": {
+    "t": "VEGGRO",
+    "c": "Quiz: veggie shop"
+  },
+  "0x001DE65C": {
+    "t": "SEPT",
+    "c": "System menu"
+  },
+  "0x001DE66C": {
+    "t": "DOC★",
+    "c": "Quiz: Keroppi dad doctor ★"
+  },
+  "0x001DE688": {
+    "t": "BADTZ",
+    "c": "System menu"
+  },
+  "0x001DE694": {
+    "t": "HELLO",
+    "c": "System menu"
+  },
+  "0x001DE6B0": {
+    "t": "CKIERIV",
+    "c": "System menu"
+  },
+  "0x001DE6C0": {
+    "t": "WTRPLAY",
+    "c": "System menu"
+  },
+  "0x001DE6E8": {
+    "t": "ALL 129",
+    "c": "System menu"
+  },
+  "0x001DE6F8": {
+    "t": "BNKTLR",
+    "c": "System menu"
+  },
+  "0x001DE708": {
+    "t": "USA",
+    "c": "System menu"
+  },
+  "0x001DE714": {
+    "t": "SWIMNG",
+    "c": "System menu"
+  },
+  "0x001DE7C4": {
+    "t": "PD EX★",
+    "c": "Quiz: Purin exercise ★"
+  },
+  "0x001DE7F0": {
+    "t": "GRD★",
+    "c": "Quiz: expired Gudetama ★"
+  },
+  "0x001DE7FC": {
+    "t": "365★",
+    "c": "Quiz: Tuxedo Sam 365 neckties ★"
+  },
+  "0x001DE80C": {
+    "t": "RYTH★",
+    "c": "Quiz: My Melody bro Rhythm ★"
+  },
+  "0x001DE81C": {
+    "t": "MOON★",
+    "c": "Quiz: Kiki & Lala height = moon ★"
+  },
+  "0x001DE82C": {
+    "t": "WIS★",
+    "c": "Quiz: Puroland Wisdom Tree ★"
+  },
+  "0x001DE838": {
+    "t": "ABVC★",
+    "c": "Quiz: Cinnamon above clouds ★"
+  },
+  "0x001DE848": {
+    "t": "FLY★",
+    "c": "Quiz: Strawberry King flies ★"
+  },
+  "0x001DE858": {
+    "t": "APR★",
+    "c": "Quiz: Badtz bday April Fools ★"
+  },
+  "0x001DE868": {
+    "t": "DET★",
+    "c": "Quiz: Purin dad detective ★"
+  },
+  "0x001DE880": {
+    "t": "DAN★",
+    "c": "Quiz: Hello Kitty bf Daniel ★"
+  },
+  "0x001DE88C": {
+    "t": "THX U★",
+    "c": "Quiz: Gyaba = thank you ★"
+  },
+  "0x001DE89C": {
+    "t": "SCAIO★",
+    "c": "Quiz: Kuromi likes scallion ★"
+  },
+  "0x001DE8AC": {
+    "t": "AB★",
+    "c": "Quiz: Kiki & Lala blood type AB ★"
+  },
+  "0x001DE8B8": {
+    "t": "DNTP★",
+    "c": "Quiz: Keroppi Donut Pond ★"
+  },
+  "0x001DE8C8": {
+    "t": "CLTS★",
+    "c": "Quiz: Purin collects shoes ★"
+  },
+  "0x001DE8E4": {
+    "t": "LOT★",
+    "c": "Quiz: Pochacco milk-vetch ★"
+  },
+  "0x001DE8F4": {
+    "t": "A100★",
+    "c": "Quiz: Tuxedo Sam all 100cm ★"
+  },
+  "0x001DE904": {
+    "t": "GNG BS★",
+    "c": "Quiz: Badtz dad gang boss ★"
+  },
+  "0x001DE918": {
+    "t": "CHN★",
+    "c": "Quiz: Hangyodon from China ★"
+  },
+  "0x001DE928": {
+    "t": "CLTRB★",
+    "c": "Quiz: Teruteru collects ribbons ★"
+  },
+  "0x001DEF24": {
+    "t": "CORRECT!",
+    "c": "Quiz: correct answer"
+  },
+  "0x001DEF38": {
+    "t": "NICE!♪♪",
+    "c": "System menu"
+  },
+  "0x001DEF48": {
+    "t": "WRONG![53]",
+    "c": "System menu"
+  },
+  "0x001DFBBC": {
+    "t": "IN BASKET",
+    "c": "System menu"
+  },
+  "0x001DFBD0": {
+    "t": "HOW MANY?",
+    "c": "System menu"
+  },
+  "0x004EDE8A": {
+    "t": "PURIN PUD",
+    "c": "Sanrio food: Purin pudding"
+  },
+  "0x004F233E": {
+    "t": "ONI DURIN",
+    "c": "Sanrio food: oni durian"
+  },
+  "0x004F2EA2": {
+    "t": "GOLD APPL",
+    "c": "Sanrio food: golden apple"
+  },
+  "0x004F3A0E": {
+    "t": "MAG DROP",
+    "c": "Sanrio food: magic drop/potion"
+  },
+  "0x004F3FC6": {
+    "t": "MAG DRIP",
+    "c": "Sanrio food: magical drop"
+  },
+  "0x004F4586": {
+    "t": "MINI COOK",
+    "c": "Sanrio food: minicar cookie"
+  },
+  "0x004F4B3A": {
+    "t": "DRAW CAKE",
+    "c": "Sanrio food: drawing cake"
+  },
+  "0x004F50DE": {
+    "t": "LOTO ICE",
+    "c": "Sanrio food: lottery ice cream"
+  },
+  "0x004F67BE": {
+    "t": "BCKT ICE",
+    "c": "Sanrio food: bucket ice cream"
+  },
+  "0x004F6D8E": {
+    "t": "MTCHA ZEN",
+    "c": "Sanrio food: matcha zenzai"
+  },
+  "0x004F7912": {
+    "t": "TEA SET",
+    "c": "Sanrio food: tea set"
+  },
+  "0x004F7EBE": {
+    "t": "DSRT PLTE",
+    "c": "Sanrio food: dessert plate"
+  },
+  "0x004F847E": {
+    "t": "CHOCO",
+    "c": "Sanrio food: Gotchi P chocolate"
+  },
+  "0x004F8A2E": {
+    "t": "CINN PUDG",
+    "c": "Sanrio food: Cinnamoroll pudding"
+  },
+  "0x004F8FEE": {
+    "t": "CHFON CKE",
+    "c": "Sanrio food: chiffon cake"
+  },
+  "0x004F95C6": {
+    "t": "PORO PUF",
+    "c": "Sanrio food: Poron parfait"
+  },
+  "0x004F9B7A": {
+    "t": "CINN LATE",
+    "c": "Sanrio food: Cinnamoroll latte"
+  },
+  "0x004FA12E": {
+    "t": "CINN ROLL",
+    "c": "Sanrio food: Cinnamoroll roll"
+  },
+  "0x004FB23A": {
+    "t": "GUDE RAMN",
+    "c": "Sanrio food: Gudetama ramen"
+  },
+  "0x004FB802": {
+    "t": "CINN BNTO",
+    "c": "Sanrio food: Cinnamoroll bento"
+  },
+  "0x004FBDC6": {
+    "t": "PCHCO CRY",
+    "c": "Sanrio food: Pochacco curry"
+  },
+  "0x004FC37E": {
+    "t": "KL SANDWH",
+    "c": "Sanrio food: Kiki&Lala sandwich"
+  },
+  "0x004FC932": {
+    "t": "KL STEW",
+    "c": "Sanrio food: Kiki&Lala stew"
+  },
+  "0x004FCEF2": {
+    "t": "STAR QICH",
+    "c": "Sanrio food: star quiche"
+  },
+  "0x004FD4C6": {
+    "t": "MELO PIE",
+    "c": "Sanrio food: Melody pot pie"
+  },
+  "0x004FDA96": {
+    "t": "KRMI OMRC",
+    "c": "Sanrio food: Kuromi omurice"
+  },
+  "0x004FE066": {
+    "t": "MSHRM SLD",
+    "c": "Sanrio food: mushroom salad"
+  },
+  "0x004FE62A": {
+    "t": "STRW PSTA",
+    "c": "Sanrio food: strawberry pasta"
+  },
+  "0x004FEBF2": {
+    "t": "STRW PIZA",
+    "c": "Sanrio food: strawberry pizza"
+  },
+  "0x004FF19E": {
+    "t": "KING PLTE",
+    "c": "Sanrio food: kings plate"
+  },
+  "0x004FF76E": {
+    "t": "HOTPOT",
+    "c": "Sanrio food: yaminabe mystery hot pot"
+  },
+  "0x004FFD2A": {
+    "t": "DOKI SOUP",
+    "c": "Sanrio food: exciting soup"
+  },
+  "0x005002FA": {
+    "t": "HERB SLAD",
+    "c": "Sanrio food: herb salad"
+  },
+  "0x005008CA": {
+    "t": "TRICK BNT",
+    "c": "Sanrio food: trick bento"
+  },
+  "0x00500E8E": {
+    "t": "BLOK RICE",
+    "c": "Sanrio food: block onigiri"
+  },
+  "0x00501446": {
+    "t": "PUZL SAND",
+    "c": "Sanrio food: puzzle sandwich"
+  },
+  "0x00501A12": {
+    "t": "VEG CURRY",
+    "c": "Sanrio food: veggie curry"
+  },
+  "0x00501FCE": {
+    "t": "CABB ROLL",
+    "c": "Sanrio food: cabbage roll"
+  },
+  "0x0050259E": {
+    "t": "FRSH SLAD",
+    "c": "Sanrio food: fresh salad"
+  },
+  "0x00502B62": {
+    "t": "SUSHI RLL",
+    "c": "Sanrio food: sushi roll"
+  },
+  "0x00503136": {
+    "t": "HAPPY PIZ",
+    "c": "Sanrio food: happy pizza"
+  },
+  "0x005036FA": {
+    "t": "SHRK SOUP",
+    "c": "Sanrio food: shark fin soup"
+  },
+  "0x00503CCA": {
+    "t": "EGG UDON",
+    "c": "Sanrio food: egg udon"
+  },
+  "0x0050428E": {
+    "t": "TAMA PLTE",
+    "c": "Sanrio food: tama plate"
+  },
+  "0x00504866": {
+    "t": "TAMA SAND",
+    "c": "Sanrio food: tama sandwich"
+  },
+  "0x00504E2A": {
+    "t": "CINN MORN",
+    "c": "Sanrio food: Cinnamoroll morning"
+  },
+  "0x005053FE": {
+    "t": "CHFN BRGR",
+    "c": "Sanrio food: chiffon burger"
+  },
+  "0x005059CE": {
+    "t": "MILK PSTA",
+    "c": "Sanrio food: milk pasta"
+  },
+  "0x00505F9A": {
+    "t": "CPNO STEW",
+    "c": "Sanrio food: cappuccino stew"
+  },
+  "0x0050656E": {
+    "t": "CINN CRRY",
+    "c": "Sanrio food: Cinnamoroll curry"
+  },
+  "0x00506B36": {
+    "t": "RICE",
+    "c": "Sanrio food: furikake rice"
+  },
+  "0x0051439A": {
+    "t": "BALLPIT",
+    "c": "Sanrio room: ball pool room"
+  },
+  "0x005165C6": {
+    "t": "FARM ROOM",
+    "c": "Sanrio room: farm living"
+  },
+  "0x005187F2": {
+    "t": "FOOD ROOM",
+    "c": "Sanrio room: gourmet living"
+  },
+  "0x0051AC1E": {
+    "t": "NORMAL RM",
+    "c": "Sanrio room: normal living"
+  },
+  "0x0051CE4A": {
+    "t": "GUDE BACN",
+    "c": "Sanrio toy: Gudetama bacon"
+  },
+  "0x0051D95A": {
+    "t": "XO GUITAR",
+    "c": "Sanrio toy: XO guitar"
+  },
+  "0x0051DF56": {
+    "t": "CLD MAKER",
+    "c": "Sanrio toy: cloud maker"
+  },
+  "0x0051F842": {
+    "t": "MELO CAR",
+    "c": "Sanrio toy: My Melody car"
+  },
+  "0x00520082": {
+    "t": "BAKU PLSH",
+    "c": "Sanrio toy: Baku plushie"
+  },
+  "0x005245C2": {
+    "t": "MAGIC RUG",
+    "c": "Sanrio toy: magic carpet"
+  },
+  "0x00524E7A": {
+    "t": "TOY TRAIN",
+    "c": "Sanrio toy: toy train"
+  },
+  "0x00525482": {
+    "t": "MAGIC HAT",
+    "c": "Sanrio toy: magic hat"
+  },
+  "0x00525F96": {
+    "t": "VEG SEEDS",
+    "c": "Sanrio toy: veggie seeds"
+  },
+  "0x005274EA": {
+    "t": "OVEN",
+    "c": "Sanrio toy: oven"
+  },
+  "0x00527A92": {
+    "t": "SOBA SET",
+    "c": "Sanrio toy: soba making set"
+  },
+  "0x005284F6": {
+    "t": "TRUNK",
+    "c": "Sanrio toy: trunk"
+  },
+  "0x00528EDE": {
+    "t": "BINOCULAR",
+    "c": "Sanrio toy: binoculars"
+  },
+  "0x005295FE": {
+    "t": "POUCH",
+    "c": "Sanrio toy: drawstring pouch"
+  },
+  "0x00529FDE": {
+    "t": "FRISBEE",
+    "c": "Sanrio toy: frisbee"
+  },
+  "0x0052AA6A": {
+    "t": "UNICYCLE",
+    "c": "Sanrio toy: unicycle"
+  },
+  "0x0052B2CE": {
+    "t": "CANVAS",
+    "c": "Sanrio toy: canvas"
+  },
+  "0x0052C4DA": {
+    "t": "HARMONICA",
+    "c": "Sanrio toy: harmonica"
+  },
+  "0x0052D58A": {
+    "t": "PLUSHIE",
+    "c": "Sanrio toy: stuffed animal"
+  },
+  "0x0052DB52": {
+    "t": "MAP2HOME",
+    "c": "Sanrio item: mama papa map"
+  },
+  "0x0053038A": {
+    "t": "HEART RNG",
+    "c": "Sanrio accessory: heart ring"
+  },
+  "0x0053078E": {
+    "t": "STYLE CPN",
+    "c": "Sanrio item: fashion coupon"
+  },
+  "0x00530B92": {
+    "t": "REFRM PAS",
+    "c": "Sanrio item: reform pass"
+  },
+  "0x00530F9E": {
+    "t": "ECO FORK",
+    "c": "Sanrio item: eco fork"
+  },
+  "0x0053139A": {
+    "t": "ECO BAG",
+    "c": "Sanrio item: eco bag"
+  },
+  "0x0053179A": {
+    "t": "ECO BADGE",
+    "c": "Sanrio item: eco badge"
+  },
+  "0x00531BA2": {
+    "t": "BFF HAT",
+    "c": "Sanrio item: BFF hat"
+  },
+  "0x00532D36": {
+    "t": "PAL RIBON",
+    "c": "Sanrio item: friendship ribbon"
+  },
+  "0x00535204": {
+    "t": "EAR",
+    "c": "Sanrio item: good listener (3ch max)"
+  },
+  "0x00539662": {
+    "t": "BOW TIE",
+    "c": "Sanrio accessory: ribbon tie"
+  },
+  "0x0053B976": {
+    "t": "PCHCO BND",
+    "c": "Sanrio accessory: Pochacco band"
+  },
+  "0x0053CAE2": {
+    "t": "GUDE HAT",
+    "c": "Sanrio accessory: Gudetama hat"
+  },
+  "0x0053FF8A": {
+    "t": "MAID BAND",
+    "c": "Sanrio accessory: maid headband"
+  },
+  "0x0054228A": {
+    "t": "STRW BAG",
+    "c": "Sanrio accessory: strawberry pochette"
+  },
+  "0x0054342A": {
+    "t": "GNGM BRET",
+    "c": "Sanrio accessory: gingham beret"
+  },
+  "0x005445BE": {
+    "t": "STRW WAND",
+    "c": "Sanrio accessory: strawberry stick/wand"
+  },
+  "0x00545752": {
+    "t": "KING CRWN",
+    "c": "Sanrio accessory: kings crown"
+  },
+  "0x005468EE": {
+    "t": "DARK UMBR",
+    "c": "Sanrio accessory: dark umbrella"
+  },
+  "0x00547A7E": {
+    "t": "WTCH HAT",
+    "c": "Sanrio accessory: witch hat"
+  },
+  "0x00549D92": {
+    "t": "BEAR EARS",
+    "c": "Sanrio accessory: bear ear band"
+  },
+  "0x0054AF0A": {
+    "t": "FLWR CRWN",
+    "c": "Sanrio accessory: flower crown"
+  },
+  "0x0054D22A": {
+    "t": "CHEF HAT",
+    "c": "Sanrio accessory: cook hat"
+  },
+  "0x00551856": {
+    "t": "CAP",
+    "c": "Sanrio accessory: cap"
+  },
+  "0x005529E2": {
+    "t": "BIG RIBON",
+    "c": "Sanrio accessory: big ribbon"
+  },
+  "0x001BE398": {
+    "t": "EAT",
+    "c": "Hotel shop food category, 3ch display limit"
+  },
+  "0x001BE3A4": {
+    "t": "NOM",
+    "c": "Hotel shop snack category, 3ch display limit"
+  },
+  "0x001D0FDC": {
+    "t": "FOOD",
+    "c": "Food/snack system label"
+  },
+  "0x001D0FE8": {
+    "t": "SNACK",
+    "c": "Food/snack system label"
+  },
+  "0x001D1D84": {
+    "t": "POO",
+    "c": "Save room: Toilet"
+  },
+  "0x001D1D8C": {
+    "t": "TUB",
+    "c": "save_room: Bath/tub"
+  },
+  "0x001BE568": {
+    "t": "P1AZA",
+    "c": "Generic plaza label 1 (ひろば)"
+  },
+  "0x001BE57A": {
+    "t": "P2AZA",
+    "c": "Generic plaza label 2 (ひろば)"
+  },
+  "0x001BDEE0": {
+    "t": "GO?",
+    "c": "Location navigation menu"
+  },
+  "0x001D3564": {
+    "t": "FUN",
+    "c": "System menu"
+  },
+  "0x001D3460": {
+    "t": "BUY",
+    "c": "settings: Buy"
+  },
+  "0x001D3474": {
+    "t": "OUT",
+    "c": "settings: Out/exit"
+  },
+  "0x001D34DC": {
+    "t": "APP",
+    "c": "Travel/visit menu"
+  },
+  "0x001D35A2": {
+    "t": "GET",
+    "c": "System menu"
+  },
+  "0x001B7E04": {
+    "t": "FREE",
+    "c": "Item status: Free/available"
+  },
+  "0x001B7E30": {
+    "t": "OFF",
+    "c": "Item status: Off"
+  },
+  "0x001B1B90": {
+    "t": "DEPT",
+    "c": "Status overlay notification"
+  },
+  "0x001B703C": {
+    "t": "ABCDEF GHIJKL MNOPQR STUVWX YZ ",
+    "c": "Name entry: Latin alphabet grid (already translated)"
+  },
+  "0x001B1A6E": {
+    "t": "OK",
+    "c": "Status overlay notification"
+  },
+  "0x001B1A76": {
+    "t": "SNAP",
+    "c": "Status overlay notification"
+  },
+  "0x001B1A82": {
+    "t": "GIFT",
+    "c": "Status overlay notification"
+  },
+  "0x001B1A92": {
+    "t": "GOT IT",
+    "c": "Status overlay notification"
+  },
+  "0x001B1ADE": {
+    "t": "BYE",
+    "c": "Status overlay notification"
+  },
+  "0x001B1AEA": {
+    "t": "TRIP",
+    "c": "Status overlay notification"
+  },
+  "0x001B1AF6": {
+    "t": "BRAVO[5C]",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B2A": {
+    "t": "FRIENDS",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B3E": {
+    "t": "SYNCING",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B52": {
+    "t": "RESORT",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B66": {
+    "t": "CAN GO",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B76": {
+    "t": "UNLOCKED",
+    "c": "Status overlay notification"
+  },
+  "0x001B1B8A": {
+    "t": "AT DEPT",
+    "c": "Status overlay notification"
+  },
+  "0x001BB900": {
+    "t": "ON",
+    "c": "check_meter: On state"
+  },
+  "0x001BB908": {
+    "t": "NO",
+    "c": "check_meter: No/off state"
+  },
+  "0x001D2524": {
+    "t": "ALL",
+    "c": "connection: All devices"
+  },
+  "0x001D2518": {
+    "t": "AUTO",
+    "c": "connection: Auto mode"
+  },
+  "0x001D252C": {
+    "t": "MODE",
+    "c": "connection: Mode"
+  },
+  "0x001D2538": {
+    "t": "CHOICE",
+    "c": "connection: Choice"
+  },
+  "0x001D2570": {
+    "t": "COUNT",
+    "c": "connection: Count"
+  },
+  "0x001D257C": {
+    "t": "VER",
+    "c": "connection: Version"
+  },
+  "0x001D25A4": {
+    "t": "MENU MODE",
+    "c": "connection: Menu mode"
+  },
+  "0x001D1EE4": {
+    "t": "GEN",
+    "c": "settings: Generation number"
+  },
+  "0x001D1F14": {
+    "t": "SET",
+    "c": "Settings: setting suffix (SUBSTRING of 0x1D1F0C, skips 4 chars)"
+  },
+  "0x001D3408": {
+    "t": "RESET",
+    "c": "settings: Reset"
+  },
+  "0x001D0E08": {
+    "t": "MO",
+    "c": "save_room: Month abbreviation"
+  },
+  "0x001D0E10": {
+    "t": "DY",
+    "c": "save_room: Day abbreviation"
+  },
+  "0x001D2138": {
+    "t": "DEL",
+    "c": "social: Delete"
+  },
+  "0x001D216C": {
+    "t": "ERASED",
+    "c": "social: Erased confirmation"
+  },
+  "0x001B15B2": {
+    "t": "LETS PLAY WITH THIS",
+    "c": "Hotel plaza: item event speech"
+  },
+  "0x001B7E58": {
+    "t": "USE",
+    "c": "Item action: Use item"
+  },
+  "0x001B1A70": {
+    "t": "OK",
+    "c": "status_overlay: General OK"
+  },
+  "0x001BB6DE": {
+    "t": "ITEM",
+    "c": "check_meter: Item category"
+  },
+  "0x001BE522": {
+    "t": "PLAZA",
+    "c": "Hotel area: Hotel Garden plaza"
+  },
+  "0x001BE5C6": {
+    "t": "SHOP",
+    "c": "Hotel area: Hotel Shop (substring of 0x1BE5C4)"
+  },
+  "0x001BE66A": {
+    "t": "RESORT",
+    "c": "hotel_nav: Resort"
+  },
+  "0x001BE74E": {
+    "t": "BRING",
+    "c": "hotel_nav: Bring item label 1"
+  },
+  "0x001BE75E": {
+    "t": "ITEM?",
+    "c": "hotel_nav: Bring item label 2 (was PACK)"
+  },
+  "0x001BE534": {
+    "t": "PLAZA",
+    "c": "Gourmet area: Gourmet Square (substring of 0x1BE532)"
+  },
+  "0x001BE5D8": {
+    "t": "SHOP",
+    "c": "Gourmet area: Gourmet Store (substring of 0x1BE5D6)"
+  },
+  "0x001BE546": {
+    "t": "FARM SQ",
+    "c": "Farm area: Farm Square (substring of 0x1BE544)"
+  },
+  "0x001BE558": {
+    "t": "PLAY SQ",
+    "c": "Play area: Play Square (substring of 0x1BE556)"
+  },
+  "0x001BE5A0": {
+    "t": "PLAZA",
+    "c": "Strawberry area: Strawberry Square (substring of 0x1BE59E)"
+  },
+  "0x001BE5B4": {
+    "t": "PARK",
+    "c": "Magical area: Magical Park (substring of 0x1BE5B0)"
+  },
+  "0x001BE5EA": {
+    "t": "FARM SH",
+    "c": "Farm area: Farm Store (substring of 0x1BE5E8)"
+  },
+  "0x001BE5FC": {
+    "t": "SHOP",
+    "c": "Toy Factory area: Toy Factory Shop (substring of 0x1BE5FA)"
+  },
+  "0x001BE60E": {
+    "t": "GOODS",
+    "c": "Goods area: Goods Shop (substring of 0x1BE60C)"
+  },
+  "0x001BE620": {
+    "t": "SHOP",
+    "c": "Merry area: Merry Shop (substring of 0x1BE61E)"
+  },
+  "0x001BE634": {
+    "t": "CLOUD",
+    "c": "Cloud area: Cloud Shop (substring of 0x1BE630)"
+  },
+  "0x001BE644": {
+    "t": "SHOP",
+    "c": "Strawberry area: Strawberry Shop (substring of 0x1BE642)"
+  },
+  "0x001BE656": {
+    "t": "MAG SHP",
+    "c": "Magical area: Magical Shop (substring of 0x1BE654)"
+  },
+  "0x001B251A": {
+    "t": "ARRY[5D]",
+    "c": "Marriage: propose? (SUBSTRING of 0x1B2518, -1st char)"
+  },
+  "0x001BE4CE": {
+    "t": "ARRY",
+    "c": "Marriage: propose flow (SUBSTRING of 0x1BE4CC, -1st char)"
+  },
+  "0x001BE4E6": {
+    "t": "BUY RING",
+    "c": "marriage: Buy ring"
+  },
+  "0x001BE4FA": {
+    "t": "CAN PROP",
+    "c": "marriage: Can propose"
+  },
+  "0x001BE50E": {
+    "t": "NO MATE",
+    "c": "marriage: No mate available"
+  },
+  "0x001B40AA": {
+    "t": "PRESS B OK",
+    "c": "connection: Button instruction"
+  },
+  "0x001B40C2": {
+    "t": "OUTGOING",
+    "c": "connection: Outgoing transfer"
+  },
+  "0x001B40FC": {
+    "t": "GD PASS",
+    "c": "connection: Good passkey (abbreviated)"
+  },
+  "0x001B410E": {
+    "t": "ENTER",
+    "c": "connection: Enter"
+  },
+  "0x001B411E": {
+    "t": "RETRY",
+    "c": "connection: Retry"
+  },
+  "0x001B412E": {
+    "t": "SKIP",
+    "c": "connection: Skip"
+  },
+  "0x001B15B4": {
+    "t": "LETS PLAY WITH THIS",
+    "c": "speech: Hotel PLAZA item event"
+  },
+  "0x001B2488": {
+    "t": "NO",
+    "c": "confirm_dialog: No/いいえ instance 1"
+  },
+  "0x001B250C": {
+    "t": "NO",
+    "c": "confirm_dialog: No/いいえ instance 2"
+  },
+  "0x001B40E8": {
+    "t": "NO",
+    "c": "confirm_dialog: No/いいえ instance 3"
+  },
+  "0x001BE370": {
+    "t": "YES",
+    "c": "confirm_dialog: Yes/はい for BRING ITEM and other hotel/travel prompts"
+  },
+  "0x001BE378": {
+    "t": "NO",
+    "c": "confirm_dialog: No/いいえ instance 4"
+  },
+  "0x001D30F8": {
+    "t": "NO",
+    "c": "confirm_dialog: No/いいえ instance 5"
+  },
+  "0x001DE8D8": {
+    "t": "7★",
+    "c": "Quiz: 7 angels in Strawberry Kingdom ★"
+  },
+  "0x001DE7E4": {
+    "t": "3★",
+    "c": "Quiz: Keroppi 3 siblings ★"
+  },
+  "0x001DE874": {
+    "t": "CHP★",
+    "c": "Quiz: Tuxedo Sam BFF Chip ★"
+  },
+  "0x001DE7A4": {
+    "t": "MMY★",
+    "c": "Quiz: Hello Kitty sister Mimmy ★"
+  },
+  "0x001DE79C": {
+    "t": "3★",
+    "c": "Quiz: Hello Kitty 3 apples ★"
+  },
+  "0x001DE7D8": {
+    "t": "O★",
+    "c": "Quiz: My Melody blood type O ★"
+  },
+  "0x001DE7B0": {
+    "t": "HWI★",
+    "c": "Quiz: Badtz from Hawaii ★"
+  },
+  "0x001DE7BC": {
+    "t": "★",
+    "c": "Quiz: Badtz pet Pochi ★"
+  },
+  "0x001DE368": {
+    "t": "7こ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE370": {
+    "t": "マミィ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE38C": {
+    "t": "ワニ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE3D8": {
+    "t": "1ぽん",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE3F4": {
+    "t": "リンゴ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE45C": {
+    "t": "モップ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE490": {
+    "t": "Bがた",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE4BC": {
+    "t": "4にん",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE4F8": {
+    "t": "インド",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE584": {
+    "t": "F",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE588": {
+    "t": "5こ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE5AC": {
+    "t": "タマ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE5C8": {
+    "t": "Aがた",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE5D4": {
+    "t": "5にん",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE67C": {
+    "t": "ポップ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE6A4": {
+    "t": "ラムネ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE6D0": {
+    "t": "6にん",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE6DC": {
+    "t": "すみれ",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE9A4": {
+    "t": "J",
+    "c": "Quiz wrong answer. Left as JP: too short to translate meaningfully"
+  },
+  "0x001DE9B0": {
+    "t": "  ハローキティのたいじ\nゅうはリンゴなんこぶん?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DE9E8": {
+    "t": "  ハローキティのいもう\nとのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEA14": {
+    "t": "  バッドばつまるのしゅ\nっしんちは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEA40": {
+    "t": "  バッドばつまるのペッ\nトのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEA6C": {
+    "t": "  ポムポムプリンのとく\nぎは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEA90": {
+    "t": "  マイメロディのけつえ\nきがたは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEAB8": {
+    "t": "  けろっぴはなんにんき\nょうだい?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEAE0": {
+    "t": "  ぐでたまはしょうみき\nげんがきれると○○になる",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEB18": {
+    "t": "  タキシードサムはネク\nタイをなんこもっている?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEB50": {
+    "t": "  マイメロディのおとう\nとのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEB7C": {
+    "t": "  キキとララのしんちょ\nうはなにとおなじ?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEBAC": {
+    "t": "  ピューロランドにある\nきのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEBD8": {
+    "t": "  シナモンがうまれたの\nはどこ?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEC00": {
+    "t": "  いちごのおうさまがス\nテッキでできることは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEC34": {
+    "t": "  けろっぴのおとうさん\nのおしごとは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEC60": {
+    "t": "  バッドばつまるのたん\nじょうびは○○フール?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEC94": {
+    "t": "  ポムポムプリンのおと\nうさんのおしごとは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DECC8": {
+    "t": "  タキシードサムのだい\nしんゆうのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DECFC": {
+    "t": "  ハローキティのボーイ\nフレンドのなまえは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DED30": {
+    "t": "  いちごおうこくごで\n「ギャバ」とは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DED5C": {
+    "t": "  クロミはすき バッド\nばつまるはキライなのは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DED94": {
+    "t": "  キキとララのけつえき\nがたは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEDBC": {
+    "t": "  けろっぴのおうちがあ\nるのは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEDE4": {
+    "t": "  ポムポムプリンのしゅ\nみは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEE08": {
+    "t": "  いちごおうこくのエン\nジェルたちはなんにん?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEE3C": {
+    "t": "  ポチャッコのすきなお\nはなは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEE64": {
+    "t": "  タキシードサムのスリ\nーサイズはなんセンチ?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEE98": {
+    "t": "  バッドばつまるのパパ\nのおしごとは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEEC4": {
+    "t": "  ハンギョドンがうまれ\nたばしょはどこ?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001DEEF4": {
+    "t": "  けろっぴのともだち\nてるてるのしゅみは?",
+    "c": "Quiz question. Left as JP: exceeds 12ch/line x 2 line speech bubble limit"
+  },
+  "0x001B6ED8": {
+    "t": "[D0][D1][D2][D3][D4][D5] [D6][D7][D8][D9][DA][DB] [DC][DD][DE][DF] ",
+    "c": "Name entry kana keyboard grid (do not translate)"
+  },
+  "0x001B1A14": {
+    "t": "さん、",
+    "c": "Honorific (san,) — part of multi-line dialogue. 3ch slot, kept as JP."
+  },
+  "0x001B2A78": {
+    "t": "NO",
+    "c": "しない (won't do) — confirmation dialog, 3ch slot"
+  },
+  "0x001B38BC": {
+    "t": "END",
+    "c": "やめる (stop/cancel) — confirmation dialog, 3ch slot"
+  },
+  "0x001B3918": {
+    "t": "GIV",
+    "c": "あげる (give) — confirmation dialog, 3ch slot"
+  },
+  "0x001BF7A4": {
+    "t": "ラブリ",
+    "c": "ラブリ (Lovely) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001BF96C": {
+    "t": "ふらわ",
+    "c": "ふらわ (Flower) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001BFC18": {
+    "t": "ござる",
+    "c": "ござる (Gozaru) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001BFDE0": {
+    "t": "キティ",
+    "c": "キティ (Kitty) — Hello Kitty speaker label, kept as JP"
+  },
+  "0x001BFEC4": {
+    "t": "プリン",
+    "c": "プリン (Purin) — Pompompurin speaker label, kept as JP"
+  },
+  "0x001BFFA8": {
+    "t": "リーナ",
+    "c": "リーナ (Lina) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001D0744": {
+    "t": "プリン",
+    "c": "プリン (Purin/Pompompurin) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001D0778": {
+    "t": "クロミ",
+    "c": "クロミ (Kuromi) — NPC dialogue speaker label, kept as JP"
+  },
+  "0x001D2470": {
+    "t": "RD?",
+    "c": "よむ? (read?)"
+  },
+  "0x0052BD7E": {
+    "t": "MAGAZINE",
+    "c": "ざっし (magazine) — Sanrio shop item"
+  },
+  "0x0052CAD2": {
+    "t": "CAMERA",
+    "c": "カメラ (camera) — Sanrio shop item"
+  },
+  "0x0052CEDA": {
+    "t": "BALL",
+    "c": "ボール (ball) — Sanrio shop item"
+  }
+}
