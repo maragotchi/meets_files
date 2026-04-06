@@ -1505,11 +1505,11 @@
   ],
   "0x001D3604": {
     "t": "QUIZ",
-    "c": "settings: Friends"
+    "c": "arcade: first game"
   },
   "0x001D3614": {
     "t": "MATCH",
-    "c": "settings: Leaf game"
+    "c": "arcade: match game"
   },
   "0x001DC4D8": {
     "t": "WELCOME TO\nTHE SANRIO\nQUIZ! ★",
@@ -1532,7 +1532,7 @@
     "c": "Sanrio room: My Melody living"
   },
   "0x0050DD16": {
-    "t": "HELLO KITTY",
+    "t": "H KITTY",
     "c": "Sanrio room: Hello Kitty living"
   },
   "0x0050FF42": {
@@ -1700,7 +1700,7 @@
     "c": "Sanrio food: crispy ramen"
   },
   "0x001D20C8": {
-    "t": "PUROLAND",
+    "t": "PURO",
     "c": "world_map: Puroland"
   },
   "0x001D068C": {
@@ -1712,7 +1712,7 @@
     "c": "Hotel/travel navigation"
   },
   "0x001BE6E0": {
-    "t": "CLOUDFAIR",
+    "t": "FAIRE",
     "c": "Hotel/travel: cloud park"
   },
   "0x001BE6CC": {
@@ -2496,7 +2496,7 @@
     "c": "Navigation menu"
   },
   "0x001BDF5C": {
-    "t": "JEWEL",
+    "t": "RINGS",
     "c": "Navigation menu"
   },
   "0x001BDF68": {
@@ -2532,8 +2532,8 @@
     "c": "Proposal: Accept proposal?"
   },
   "0x001BE3B0": {
-    "t": "TOOLS",
-    "c": "Shop category: Tools"
+    "t": "ITEM",
+    "c": "Shop category: items"
   },
   "0x001BE3BC": {
     "t": "ACCSRY",
@@ -3133,7 +3133,7 @@
   },
   "0x001D0FD0": {
     "t": "ITEM",
-    "c": "おどうぐ (tools/items)"
+    "c": "おどうぐ (items)"
   },
   "0x001D14AC": {
     "t": "PLAY ITEM",
